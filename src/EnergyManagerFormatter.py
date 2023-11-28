@@ -42,10 +42,12 @@ else:
                     with open(output_file_path, 'w', newline='') as output_file:
                         csv_writer = csv.writer(output_file)
                         for line in lines:
-                            modified_line = [line[i] for i in range(len(line)) if i not in columns_to_remove]
-                            csv_writer.writerow(modified_line)
+                            # Check if the value in the third column is "natural gas" or "wastewater"
+                            if line[2].lower() not in ["natural gas", "wastewater"]:
+                                modified_line = [line[i] for i in range(len(line)) if i not in columns_to_remove]
+                                csv_writer.writerow(modified_line)
 
-                    print(f"Columns removed and output saved to {output_file_name}")
+                    print(f"Columns removed, and lines with 'natural gas' or 'wastewater' deleted. Output saved to {output_file_name}")
 
         elif mode_choice == "2":
 
@@ -65,25 +67,23 @@ else:
                         lines = list(csv_reader)
 
                         for line in lines:
-                            # Remove specified columns
-                            modified_line = [line[i] for i in range(len(line)) if i not in columns_to_remove]
+                            # Check if the value in the third column is "natural gas" or "wastewater"
+                            if line[2].lower() not in ["natural gas", "wastewater"]:
+                                # Remove specified columns
+                                modified_line = [line[i] for i in range(len(line)) if i not in columns_to_remove]
 
-                            # Check condition for Natural Gas and skip the line
-                            if modified_line[2].lower() == "natural gas":
-                                continue
+                                # Check if the building changes
+                                if line[0] != previous_building:
+                                    if previous_building is not None:
+                                        # Add 5 empty lines if the building changes
+                                        for _ in range(5):
+                                            csv_writer.writerow([])
+                                    empty_lines_added = 0
+                                    previous_building = line[0]
 
-                            # Check if the building changes
-                            if line[0] != previous_building:
-                                if previous_building is not None:
-                                    # Add 5 empty lines if the building changes
-                                    for _ in range(5):
-                                        csv_writer.writerow([])
-                                empty_lines_added = 0
-                                previous_building = line[0]
+                                csv_writer.writerow(modified_line)
 
-                            csv_writer.writerow(modified_line)
-
-                print(f"Columns removed, Natural Gas lines skipped, and output saved to {all_buildings_file}")
+                print(f"Columns removed, Natural Gas and Wastewater lines skipped, and output saved to {all_buildings_file}")
 
         elif mode_choice == "3":
             sys.exit()
