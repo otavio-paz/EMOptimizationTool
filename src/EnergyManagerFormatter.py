@@ -48,6 +48,7 @@ else:
                                 csv_writer.writerow(modified_line)
 
                     print(f"Columns removed, and lines with 'natural gas' or 'wastewater' deleted. Output saved to {output_file_name}")
+                    sys.exit()
 
         elif mode_choice == "2":
 
@@ -84,6 +85,7 @@ else:
                                 csv_writer.writerow(modified_line)
 
                 print(f"Columns removed, Natural Gas and Wastewater lines skipped, and output saved to {all_buildings_file}")
+                sys.exit()
 
         elif mode_choice == "3":
             sys.exit()
