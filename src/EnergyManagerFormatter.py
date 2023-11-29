@@ -2,6 +2,52 @@ import os
 import csv
 import sys
 
+"""
+    Updates water meter types (high flow or low flow) in the specified output file based on a mapping of account numbers to water meter types.
+
+    Parameters:
+    - output_file_path (str): The file path of the output CSV file to be updated.
+    - account_numbers_file (str): The file path of the CSV file containing account numbers and corresponding water meter types.
+
+    Returns:
+    None
+    """
+def update_water_meter_type(output_file_path, account_numbers_file):
+    # Read account numbers from the specified file
+    with open(account_numbers_file, 'r') as account_numbers_file:
+        account_reader = csv.reader(account_numbers_file)
+        account_numbers_data = list(account_reader)
+
+    # Bug: Some of the account numbers are strings and not parsed correctly
+    
+    # Create a dictionary to store the mapping of account numbers to water meter types
+    account_water_meter_mapping = {row[1]: row[2] for row in account_numbers_data}
+
+    # Update water meter types in the output file
+    with open(output_file_path, 'r') as output_file:
+        lines = list(csv.reader(output_file))
+
+    for i in range(len(lines)):
+        if len(lines[i]) == 0:
+            # Skip lines if it's an empty line
+            continue
+
+        account_number = lines[i][1]
+
+        # Check if the account number is in the mapping dictionary
+        if account_number in account_water_meter_mapping:
+            # Update the water meter type in the third column
+            lines[i][2] = account_water_meter_mapping[account_number]
+
+    # Write the updated lines back to the output file
+    with open(output_file_path, 'w', newline='') as output_file:
+        csv_writer = csv.writer(output_file)
+        csv_writer.writerows(lines)
+
+"""
+Main function:
+"""
+
 # Get the current directory
 current_directory = os.getcwd()
 
@@ -48,6 +94,7 @@ else:
                                 csv_writer.writerow(modified_line)
 
                     print(f"Columns removed, and lines with 'natural gas' or 'wastewater' deleted. Output saved to {output_file_name}")
+                    # Close program
                     sys.exit()
 
         elif mode_choice == "2":
@@ -68,6 +115,9 @@ else:
                         lines = list(csv_reader)
 
                         for line in lines:
+
+                            print("Line length:", len(line))
+                            
                             # Check if the value in the third column is "natural gas" or "wastewater"
                             if line[2].lower() not in ["natural gas", "wastewater"]:
                                 # Remove specified columns
@@ -85,6 +135,9 @@ else:
                                 csv_writer.writerow(modified_line)
 
                 print(f"Columns removed, Natural Gas and Wastewater lines skipped, and output saved to {all_buildings_file}")
+                # Replace the account number of water meters by `High Flow` or `Low Flow`
+                update_water_meter_type("all_buildings.csv", "account_numbers.csv")
+                # Close program
                 sys.exit()
 
         elif mode_choice == "3":
