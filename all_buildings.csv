@@ -1,15 +1,15 @@
-104 S Professor St - Kade Dorm,41-00470-1,Low Flow,10/01/2022,11/01/2022,"21,760",kWh
-104 S Professor St - Kade Dorm,41-00470-1,Low Flow,11/01/2022,12/01/2022,"27,360",kWh
-104 S Professor St - Kade Dorm,41-00470-1,Low Flow,12/01/2022,01/01/2023,"25,440",kWh
-104 S Professor St - Kade Dorm,41-00470-1,Low Flow,01/01/2023,02/01/2023,"25,280",kWh
-104 S Professor St - Kade Dorm,41-00470-1,Low Flow,02/01/2023,03/01/2023,"28,320",kWh
-104 S Professor St - Kade Dorm,41-00470-1,Low Flow,03/01/2023,04/01/2023,"30,080",kWh
-104 S Professor St - Kade Dorm,41-00470-1,Low Flow,04/01/2023,05/01/2023,"24,960",kWh
-104 S Professor St - Kade Dorm,41-00470-1,Low Flow,05/01/2023,06/01/2023,"21,120",kWh
-104 S Professor St - Kade Dorm,41-00470-1,Low Flow,06/01/2023,07/01/2023,"16,960",kWh
-104 S Professor St - Kade Dorm,41-00470-1,Low Flow,07/01/2023,08/01/2023,"15,200",kWh
-104 S Professor St - Kade Dorm,41-00470-1,Low Flow,08/01/2023,09/01/2023,"16,000",kWh
-104 S Professor St - Kade Dorm,41-00470-1,Low Flow,09/01/2023,10/01/2023,"23,200",kWh
+104 S Professor St - Kade Dorm,41-00470-1,Electricity,10/01/2022,11/01/2022,"21,760",kWh
+104 S Professor St - Kade Dorm,41-00470-1,Electricity,11/01/2022,12/01/2022,"27,360",kWh
+104 S Professor St - Kade Dorm,41-00470-1,Electricity,12/01/2022,01/01/2023,"25,440",kWh
+104 S Professor St - Kade Dorm,41-00470-1,Electricity,01/01/2023,02/01/2023,"25,280",kWh
+104 S Professor St - Kade Dorm,41-00470-1,Electricity,02/01/2023,03/01/2023,"28,320",kWh
+104 S Professor St - Kade Dorm,41-00470-1,Electricity,03/01/2023,04/01/2023,"30,080",kWh
+104 S Professor St - Kade Dorm,41-00470-1,Electricity,04/01/2023,05/01/2023,"24,960",kWh
+104 S Professor St - Kade Dorm,41-00470-1,Electricity,05/01/2023,06/01/2023,"21,120",kWh
+104 S Professor St - Kade Dorm,41-00470-1,Electricity,06/01/2023,07/01/2023,"16,960",kWh
+104 S Professor St - Kade Dorm,41-00470-1,Electricity,07/01/2023,08/01/2023,"15,200",kWh
+104 S Professor St - Kade Dorm,41-00470-1,Electricity,08/01/2023,09/01/2023,"16,000",kWh
+104 S Professor St - Kade Dorm,41-00470-1,Electricity,09/01/2023,10/01/2023,"23,200",kWh
 104 S Professor St - Kade Dorm,41-00470-1,Low Flow,10/01/2022,11/01/2022,"2,400",cf
 104 S Professor St - Kade Dorm,41-00470-1,Low Flow,11/01/2022,12/01/2022,"2,600",cf
 104 S Professor St - Kade Dorm,41-00470-1,Low Flow,12/01/2022,01/01/2023,"1,800",cf
@@ -109,18 +109,18 @@
 
 
 
-113 W College St - Harkness House,41-00390-1,Low Flow,10/01/2022,11/01/2022,"11,960",kWh
-113 W College St - Harkness House,41-00390-1,Low Flow,11/01/2022,12/01/2022,"14,440",kWh
-113 W College St - Harkness House,41-00390-1,Low Flow,12/01/2022,01/01/2023,"16,640",kWh
-113 W College St - Harkness House,41-00390-1,Low Flow,01/01/2023,02/01/2023,"17,200",kWh
-113 W College St - Harkness House,41-00390-1,Low Flow,02/01/2023,03/01/2023,"16,160",kWh
-113 W College St - Harkness House,41-00390-1,Low Flow,03/01/2023,04/01/2023,"17,800",kWh
-113 W College St - Harkness House,41-00390-1,Low Flow,04/01/2023,05/01/2023,"12,160",kWh
-113 W College St - Harkness House,41-00390-1,Low Flow,05/01/2023,06/01/2023,"9,680",kWh
-113 W College St - Harkness House,41-00390-1,Low Flow,06/01/2023,07/01/2023,"4,880",kWh
-113 W College St - Harkness House,41-00390-1,Low Flow,07/01/2023,08/01/2023,"5,680",kWh
-113 W College St - Harkness House,41-00390-1,Low Flow,08/01/2023,09/01/2023,"8,120",kWh
-113 W College St - Harkness House,41-00390-1,Low Flow,09/01/2023,10/01/2023,"10,480",kWh
+113 W College St - Harkness House,41-00390-1,Electricity,10/01/2022,11/01/2022,"11,960",kWh
+113 W College St - Harkness House,41-00390-1,Electricity,11/01/2022,12/01/2022,"14,440",kWh
+113 W College St - Harkness House,41-00390-1,Electricity,12/01/2022,01/01/2023,"16,640",kWh
+113 W College St - Harkness House,41-00390-1,Electricity,01/01/2023,02/01/2023,"17,200",kWh
+113 W College St - Harkness House,41-00390-1,Electricity,02/01/2023,03/01/2023,"16,160",kWh
+113 W College St - Harkness House,41-00390-1,Electricity,03/01/2023,04/01/2023,"17,800",kWh
+113 W College St - Harkness House,41-00390-1,Electricity,04/01/2023,05/01/2023,"12,160",kWh
+113 W College St - Harkness House,41-00390-1,Electricity,05/01/2023,06/01/2023,"9,680",kWh
+113 W College St - Harkness House,41-00390-1,Electricity,06/01/2023,07/01/2023,"4,880",kWh
+113 W College St - Harkness House,41-00390-1,Electricity,07/01/2023,08/01/2023,"5,680",kWh
+113 W College St - Harkness House,41-00390-1,Electricity,08/01/2023,09/01/2023,"8,120",kWh
+113 W College St - Harkness House,41-00390-1,Electricity,09/01/2023,10/01/2023,"10,480",kWh
 113 W College St - Harkness House,41-00390-1,Low Flow,10/01/2022,11/01/2022,200,cf
 113 W College St - Harkness House,41-00390-1,Low Flow,11/01/2022,12/01/2022,200,cf
 113 W College St - Harkness House,41-00390-1,Low Flow,12/01/2022,01/01/2023,200,cf
@@ -190,18 +190,18 @@
 
 
 
-121 Elm St - South Hall,41-00440-1,Low Flow,10/01/2022,11/01/2022,"40,720",kWh
-121 Elm St - South Hall,41-00440-1,Low Flow,11/01/2022,12/01/2022,"43,040",kWh
-121 Elm St - South Hall,41-00440-1,Low Flow,12/01/2022,01/01/2023,"44,800",kWh
-121 Elm St - South Hall,41-00440-1,Low Flow,01/01/2023,02/01/2023,"41,440",kWh
-121 Elm St - South Hall,41-00440-1,Low Flow,02/01/2023,03/01/2023,"45,440",kWh
-121 Elm St - South Hall,41-00440-1,Low Flow,03/01/2023,04/01/2023,"44,160",kWh
-121 Elm St - South Hall,41-00440-1,Low Flow,04/01/2023,05/01/2023,"44,000",kWh
-121 Elm St - South Hall,41-00440-1,Low Flow,05/01/2023,06/01/2023,"35,200",kWh
-121 Elm St - South Hall,41-00440-1,Low Flow,06/01/2023,07/01/2023,"27,440",kWh
-121 Elm St - South Hall,41-00440-1,Low Flow,07/01/2023,08/01/2023,"25,040",kWh
-121 Elm St - South Hall,41-00440-1,Low Flow,08/01/2023,09/01/2023,"30,000",kWh
-121 Elm St - South Hall,41-00440-1,Low Flow,09/01/2023,10/01/2023,"46,960",kWh
+121 Elm St - South Hall,41-00440-1,Electricity,10/01/2022,11/01/2022,"40,720",kWh
+121 Elm St - South Hall,41-00440-1,Electricity,11/01/2022,12/01/2022,"43,040",kWh
+121 Elm St - South Hall,41-00440-1,Electricity,12/01/2022,01/01/2023,"44,800",kWh
+121 Elm St - South Hall,41-00440-1,Electricity,01/01/2023,02/01/2023,"41,440",kWh
+121 Elm St - South Hall,41-00440-1,Electricity,02/01/2023,03/01/2023,"45,440",kWh
+121 Elm St - South Hall,41-00440-1,Electricity,03/01/2023,04/01/2023,"44,160",kWh
+121 Elm St - South Hall,41-00440-1,Electricity,04/01/2023,05/01/2023,"44,000",kWh
+121 Elm St - South Hall,41-00440-1,Electricity,05/01/2023,06/01/2023,"35,200",kWh
+121 Elm St - South Hall,41-00440-1,Electricity,06/01/2023,07/01/2023,"27,440",kWh
+121 Elm St - South Hall,41-00440-1,Electricity,07/01/2023,08/01/2023,"25,040",kWh
+121 Elm St - South Hall,41-00440-1,Electricity,08/01/2023,09/01/2023,"30,000",kWh
+121 Elm St - South Hall,41-00440-1,Electricity,09/01/2023,10/01/2023,"46,960",kWh
 121 Elm St - South Hall,41-00440-1,Low Flow,10/01/2022,11/01/2022,"16,700",cf
 121 Elm St - South Hall,41-00440-1,Low Flow,11/01/2022,12/01/2022,"17,400",cf
 121 Elm St - South Hall,41-00440-1,Low Flow,12/01/2022,01/01/2023,"19,000",cf
@@ -231,18 +231,18 @@
 
 
 
-126 Forest St - Lord Saunders Dorm,41-00480-1,High Flow,10/01/2022,11/01/2022,"25,360",kWh
-126 Forest St - Lord Saunders Dorm,41-00480-1,High Flow,11/01/2022,12/01/2022,"26,320",kWh
-126 Forest St - Lord Saunders Dorm,41-00480-1,High Flow,12/01/2022,01/01/2023,"22,480",kWh
-126 Forest St - Lord Saunders Dorm,41-00480-1,High Flow,01/01/2023,02/01/2023,"18,480",kWh
-126 Forest St - Lord Saunders Dorm,41-00480-1,High Flow,02/01/2023,03/01/2023,"23,600",kWh
-126 Forest St - Lord Saunders Dorm,41-00480-1,High Flow,03/01/2023,04/01/2023,"22,800",kWh
-126 Forest St - Lord Saunders Dorm,41-00480-1,High Flow,04/01/2023,05/01/2023,"24,000",kWh
-126 Forest St - Lord Saunders Dorm,41-00480-1,High Flow,05/01/2023,06/01/2023,"19,280",kWh
-126 Forest St - Lord Saunders Dorm,41-00480-1,High Flow,06/01/2023,07/01/2023,"20,000",kWh
-126 Forest St - Lord Saunders Dorm,41-00480-1,High Flow,07/01/2023,08/01/2023,"23,120",kWh
-126 Forest St - Lord Saunders Dorm,41-00480-1,High Flow,08/01/2023,09/01/2023,"18,560",kWh
-126 Forest St - Lord Saunders Dorm,41-00480-1,High Flow,09/01/2023,10/01/2023,"19,600",kWh
+126 Forest St - Lord Saunders Dorm,41-00480-1,Electricity,10/01/2022,11/01/2022,"25,360",kWh
+126 Forest St - Lord Saunders Dorm,41-00480-1,Electricity,11/01/2022,12/01/2022,"26,320",kWh
+126 Forest St - Lord Saunders Dorm,41-00480-1,Electricity,12/01/2022,01/01/2023,"22,480",kWh
+126 Forest St - Lord Saunders Dorm,41-00480-1,Electricity,01/01/2023,02/01/2023,"18,480",kWh
+126 Forest St - Lord Saunders Dorm,41-00480-1,Electricity,02/01/2023,03/01/2023,"23,600",kWh
+126 Forest St - Lord Saunders Dorm,41-00480-1,Electricity,03/01/2023,04/01/2023,"22,800",kWh
+126 Forest St - Lord Saunders Dorm,41-00480-1,Electricity,04/01/2023,05/01/2023,"24,000",kWh
+126 Forest St - Lord Saunders Dorm,41-00480-1,Electricity,05/01/2023,06/01/2023,"19,280",kWh
+126 Forest St - Lord Saunders Dorm,41-00480-1,Electricity,06/01/2023,07/01/2023,"20,000",kWh
+126 Forest St - Lord Saunders Dorm,41-00480-1,Electricity,07/01/2023,08/01/2023,"23,120",kWh
+126 Forest St - Lord Saunders Dorm,41-00480-1,Electricity,08/01/2023,09/01/2023,"18,560",kWh
+126 Forest St - Lord Saunders Dorm,41-00480-1,Electricity,09/01/2023,10/01/2023,"19,600",kWh
 126 Forest St - Lord Saunders Dorm,41-00480-1,High Flow,10/01/2022,11/01/2022,"1,200",cf
 126 Forest St - Lord Saunders Dorm,41-00480-1,High Flow,11/01/2022,12/01/2022,"1,400",cf
 126 Forest St - Lord Saunders Dorm,41-00480-1,High Flow,12/01/2022,01/01/2023,"1,000",cf
@@ -272,18 +272,18 @@
 
 
 
-134 S Professor St - Allencroft,41-00490-1,Low Flow,10/01/2022,11/01/2022,"1,575",kWh
-134 S Professor St - Allencroft,41-00490-1,Low Flow,11/01/2022,12/01/2022,"2,007",kWh
-134 S Professor St - Allencroft,41-00490-1,Low Flow,12/01/2022,01/01/2023,"1,829",kWh
-134 S Professor St - Allencroft,41-00490-1,Low Flow,01/01/2023,02/01/2023,"3,472",kWh
-134 S Professor St - Allencroft,41-00490-1,Low Flow,02/01/2023,03/01/2023,"4,052",kWh
-134 S Professor St - Allencroft,41-00490-1,Low Flow,03/01/2023,04/01/2023,"3,923",kWh
-134 S Professor St - Allencroft,41-00490-1,Low Flow,04/01/2023,05/01/2023,"2,567",kWh
-134 S Professor St - Allencroft,41-00490-1,Low Flow,05/01/2023,06/01/2023,"1,528",kWh
-134 S Professor St - Allencroft,41-00490-1,Low Flow,06/01/2023,07/01/2023,"1,016",kWh
-134 S Professor St - Allencroft,41-00490-1,Low Flow,07/01/2023,08/01/2023,813,kWh
-134 S Professor St - Allencroft,41-00490-1,Low Flow,08/01/2023,09/01/2023,"1,338",kWh
-134 S Professor St - Allencroft,41-00490-1,Low Flow,09/01/2023,10/01/2023,"1,604",kWh
+134 S Professor St - Allencroft,41-00490-1,Electricity,10/01/2022,11/01/2022,"1,575",kWh
+134 S Professor St - Allencroft,41-00490-1,Electricity,11/01/2022,12/01/2022,"2,007",kWh
+134 S Professor St - Allencroft,41-00490-1,Electricity,12/01/2022,01/01/2023,"1,829",kWh
+134 S Professor St - Allencroft,41-00490-1,Electricity,01/01/2023,02/01/2023,"3,472",kWh
+134 S Professor St - Allencroft,41-00490-1,Electricity,02/01/2023,03/01/2023,"4,052",kWh
+134 S Professor St - Allencroft,41-00490-1,Electricity,03/01/2023,04/01/2023,"3,923",kWh
+134 S Professor St - Allencroft,41-00490-1,Electricity,04/01/2023,05/01/2023,"2,567",kWh
+134 S Professor St - Allencroft,41-00490-1,Electricity,05/01/2023,06/01/2023,"1,528",kWh
+134 S Professor St - Allencroft,41-00490-1,Electricity,06/01/2023,07/01/2023,"1,016",kWh
+134 S Professor St - Allencroft,41-00490-1,Electricity,07/01/2023,08/01/2023,813,kWh
+134 S Professor St - Allencroft,41-00490-1,Electricity,08/01/2023,09/01/2023,"1,338",kWh
+134 S Professor St - Allencroft,41-00490-1,Electricity,09/01/2023,10/01/2023,"1,604",kWh
 134 S Professor St - Allencroft,41-00490-1,Low Flow,10/01/2022,11/01/2022,"6,400",cf
 134 S Professor St - Allencroft,41-00490-1,Low Flow,11/01/2022,12/01/2022,"3,700",cf
 134 S Professor St - Allencroft,41-00490-1,Low Flow,12/01/2022,01/01/2023,600,cf
@@ -301,18 +301,18 @@
 
 
 
-140 W College St - Dascomb,41-00290-1,Low Flow,10/01/2022,11/01/2022,"37,320",kWh
-140 W College St - Dascomb,41-00290-1,Low Flow,11/01/2022,12/01/2022,"39,720",kWh
-140 W College St - Dascomb,41-00290-1,Low Flow,12/01/2022,01/01/2023,"44,640",kWh
-140 W College St - Dascomb,41-00290-1,Low Flow,01/01/2023,02/01/2023,"39,800",kWh
-140 W College St - Dascomb,41-00290-1,Low Flow,02/01/2023,03/01/2023,"39,400",kWh
-140 W College St - Dascomb,41-00290-1,Low Flow,03/01/2023,04/01/2023,"41,480",kWh
-140 W College St - Dascomb,41-00290-1,Low Flow,04/01/2023,05/01/2023,"37,040",kWh
-140 W College St - Dascomb,41-00290-1,Low Flow,05/01/2023,06/01/2023,"30,400",kWh
-140 W College St - Dascomb,41-00290-1,Low Flow,06/01/2023,07/01/2023,"23,280",kWh
-140 W College St - Dascomb,41-00290-1,Low Flow,07/01/2023,08/01/2023,"28,080",kWh
-140 W College St - Dascomb,41-00290-1,Low Flow,08/01/2023,09/01/2023,"26,800",kWh
-140 W College St - Dascomb,41-00290-1,Low Flow,09/01/2023,10/01/2023,"36,360",kWh
+140 W College St - Dascomb,41-00290-1,Electricity,10/01/2022,11/01/2022,"37,320",kWh
+140 W College St - Dascomb,41-00290-1,Electricity,11/01/2022,12/01/2022,"39,720",kWh
+140 W College St - Dascomb,41-00290-1,Electricity,12/01/2022,01/01/2023,"44,640",kWh
+140 W College St - Dascomb,41-00290-1,Electricity,01/01/2023,02/01/2023,"39,800",kWh
+140 W College St - Dascomb,41-00290-1,Electricity,02/01/2023,03/01/2023,"39,400",kWh
+140 W College St - Dascomb,41-00290-1,Electricity,03/01/2023,04/01/2023,"41,480",kWh
+140 W College St - Dascomb,41-00290-1,Electricity,04/01/2023,05/01/2023,"37,040",kWh
+140 W College St - Dascomb,41-00290-1,Electricity,05/01/2023,06/01/2023,"30,400",kWh
+140 W College St - Dascomb,41-00290-1,Electricity,06/01/2023,07/01/2023,"23,280",kWh
+140 W College St - Dascomb,41-00290-1,Electricity,07/01/2023,08/01/2023,"28,080",kWh
+140 W College St - Dascomb,41-00290-1,Electricity,08/01/2023,09/01/2023,"26,800",kWh
+140 W College St - Dascomb,41-00290-1,Electricity,09/01/2023,10/01/2023,"36,360",kWh
 140 W College St - Dascomb,41-00290-1,Low Flow,10/01/2022,11/01/2022,"12,400",cf
 140 W College St - Dascomb,41-00290-1,Low Flow,11/01/2022,12/01/2022,"13,900",cf
 140 W College St - Dascomb,41-00290-1,Low Flow,12/01/2022,01/01/2023,"10,900",cf
@@ -412,18 +412,18 @@
 
 
 
-154 N Main St - Keep Cottage,41-00530-1,High Flow,10/01/2022,11/01/2022,"6,882",kWh
-154 N Main St - Keep Cottage,41-00530-1,High Flow,11/01/2022,12/01/2022,"6,977",kWh
-154 N Main St - Keep Cottage,41-00530-1,High Flow,12/01/2022,01/01/2023,"6,413",kWh
-154 N Main St - Keep Cottage,41-00530-1,High Flow,01/01/2023,02/01/2023,"4,736",kWh
-154 N Main St - Keep Cottage,41-00530-1,High Flow,02/01/2023,03/01/2023,"6,390",kWh
-154 N Main St - Keep Cottage,41-00530-1,High Flow,03/01/2023,04/01/2023,"6,234",kWh
-154 N Main St - Keep Cottage,41-00530-1,High Flow,04/01/2023,05/01/2023,"5,959",kWh
-154 N Main St - Keep Cottage,41-00530-1,High Flow,05/01/2023,06/01/2023,"4,255",kWh
-154 N Main St - Keep Cottage,41-00530-1,High Flow,06/01/2023,07/01/2023,"2,302",kWh
-154 N Main St - Keep Cottage,41-00530-1,High Flow,07/01/2023,08/01/2023,"2,395",kWh
-154 N Main St - Keep Cottage,41-00530-1,High Flow,08/01/2023,09/01/2023,"3,362",kWh
-154 N Main St - Keep Cottage,41-00530-1,High Flow,09/01/2023,10/01/2023,"5,851",kWh
+154 N Main St - Keep Cottage,41-00530-1,Electricity,10/01/2022,11/01/2022,"6,882",kWh
+154 N Main St - Keep Cottage,41-00530-1,Electricity,11/01/2022,12/01/2022,"6,977",kWh
+154 N Main St - Keep Cottage,41-00530-1,Electricity,12/01/2022,01/01/2023,"6,413",kWh
+154 N Main St - Keep Cottage,41-00530-1,Electricity,01/01/2023,02/01/2023,"4,736",kWh
+154 N Main St - Keep Cottage,41-00530-1,Electricity,02/01/2023,03/01/2023,"6,390",kWh
+154 N Main St - Keep Cottage,41-00530-1,Electricity,03/01/2023,04/01/2023,"6,234",kWh
+154 N Main St - Keep Cottage,41-00530-1,Electricity,04/01/2023,05/01/2023,"5,959",kWh
+154 N Main St - Keep Cottage,41-00530-1,Electricity,05/01/2023,06/01/2023,"4,255",kWh
+154 N Main St - Keep Cottage,41-00530-1,Electricity,06/01/2023,07/01/2023,"2,302",kWh
+154 N Main St - Keep Cottage,41-00530-1,Electricity,07/01/2023,08/01/2023,"2,395",kWh
+154 N Main St - Keep Cottage,41-00530-1,Electricity,08/01/2023,09/01/2023,"3,362",kWh
+154 N Main St - Keep Cottage,41-00530-1,Electricity,09/01/2023,10/01/2023,"5,851",kWh
 154 N Main St - Keep Cottage,41-00540-1,Low Flow,10/01/2022,11/01/2022,0,cf
 154 N Main St - Keep Cottage,41-00540-1,Low Flow,11/01/2022,12/01/2022,100,cf
 154 N Main St - Keep Cottage,41-00540-1,Low Flow,12/01/2022,01/01/2023,0,cf
@@ -453,18 +453,18 @@
 
 
 
-167 Woodland St - Noah Hall,41-00190-1,Low Flow,10/01/2022,11/01/2022,"11,120",kWh
-167 Woodland St - Noah Hall,41-00190-1,Low Flow,11/01/2022,12/01/2022,"11,480",kWh
-167 Woodland St - Noah Hall,41-00190-1,Low Flow,12/01/2022,01/01/2023,"11,880",kWh
-167 Woodland St - Noah Hall,41-00190-1,Low Flow,01/01/2023,02/01/2023,"11,520",kWh
-167 Woodland St - Noah Hall,41-00190-1,Low Flow,02/01/2023,03/01/2023,"12,360",kWh
-167 Woodland St - Noah Hall,41-00190-1,Low Flow,03/01/2023,04/01/2023,"13,200",kWh
-167 Woodland St - Noah Hall,41-00190-1,Low Flow,04/01/2023,05/01/2023,"13,080",kWh
-167 Woodland St - Noah Hall,41-00190-1,Low Flow,05/01/2023,06/01/2023,"14,000",kWh
-167 Woodland St - Noah Hall,41-00190-1,Low Flow,06/01/2023,07/01/2023,"8,120",kWh
-167 Woodland St - Noah Hall,41-00190-1,Low Flow,07/01/2023,08/01/2023,"8,400",kWh
-167 Woodland St - Noah Hall,41-00190-1,Low Flow,08/01/2023,09/01/2023,"10,680",kWh
-167 Woodland St - Noah Hall,41-00190-1,Low Flow,09/01/2023,10/01/2023,"12,960",kWh
+167 Woodland St - Noah Hall,41-00190-1,Electricity,10/01/2022,11/01/2022,"11,120",kWh
+167 Woodland St - Noah Hall,41-00190-1,Electricity,11/01/2022,12/01/2022,"11,480",kWh
+167 Woodland St - Noah Hall,41-00190-1,Electricity,12/01/2022,01/01/2023,"11,880",kWh
+167 Woodland St - Noah Hall,41-00190-1,Electricity,01/01/2023,02/01/2023,"11,520",kWh
+167 Woodland St - Noah Hall,41-00190-1,Electricity,02/01/2023,03/01/2023,"12,360",kWh
+167 Woodland St - Noah Hall,41-00190-1,Electricity,03/01/2023,04/01/2023,"13,200",kWh
+167 Woodland St - Noah Hall,41-00190-1,Electricity,04/01/2023,05/01/2023,"13,080",kWh
+167 Woodland St - Noah Hall,41-00190-1,Electricity,05/01/2023,06/01/2023,"14,000",kWh
+167 Woodland St - Noah Hall,41-00190-1,Electricity,06/01/2023,07/01/2023,"8,120",kWh
+167 Woodland St - Noah Hall,41-00190-1,Electricity,07/01/2023,08/01/2023,"8,400",kWh
+167 Woodland St - Noah Hall,41-00190-1,Electricity,08/01/2023,09/01/2023,"10,680",kWh
+167 Woodland St - Noah Hall,41-00190-1,Electricity,09/01/2023,10/01/2023,"12,960",kWh
 167 Woodland St - Noah Hall,41-00190-1,Low Flow,10/01/2022,11/01/2022,"6,300",cf
 167 Woodland St - Noah Hall,41-00190-1,Low Flow,11/01/2022,12/01/2022,"6,100",cf
 167 Woodland St - Noah Hall,41-00190-1,Low Flow,12/01/2022,01/01/2023,"4,800",cf
@@ -545,18 +545,18 @@
 
 
 
-176 N Professor St - East Hall,41-00060-1,Low Flow,10/01/2022,11/01/2022,"30,000",kWh
-176 N Professor St - East Hall,41-00060-1,Low Flow,11/01/2022,12/01/2022,"30,400",kWh
-176 N Professor St - East Hall,41-00060-1,Low Flow,12/01/2022,01/01/2023,"27,600",kWh
-176 N Professor St - East Hall,41-00060-1,Low Flow,01/01/2023,02/01/2023,"25,680",kWh
-176 N Professor St - East Hall,41-00060-1,Low Flow,02/01/2023,03/01/2023,"28,800",kWh
-176 N Professor St - East Hall,41-00060-1,Low Flow,03/01/2023,04/01/2023,"29,360",kWh
-176 N Professor St - East Hall,41-00060-1,Low Flow,04/01/2023,05/01/2023,"29,760",kWh
-176 N Professor St - East Hall,41-00060-1,Low Flow,05/01/2023,06/01/2023,"24,960",kWh
-176 N Professor St - East Hall,41-00060-1,Low Flow,06/01/2023,07/01/2023,"4,720",kWh
-176 N Professor St - East Hall,41-00060-1,Low Flow,07/01/2023,08/01/2023,"10,880",kWh
-176 N Professor St - East Hall,41-00060-1,Low Flow,08/01/2023,09/01/2023,"13,760",kWh
-176 N Professor St - East Hall,41-00060-1,Low Flow,09/01/2023,10/02/2023,"26,720",kWh
+176 N Professor St - East Hall,41-00060-1,Electricity,10/01/2022,11/01/2022,"30,000",kWh
+176 N Professor St - East Hall,41-00060-1,Electricity,11/01/2022,12/01/2022,"30,400",kWh
+176 N Professor St - East Hall,41-00060-1,Electricity,12/01/2022,01/01/2023,"27,600",kWh
+176 N Professor St - East Hall,41-00060-1,Electricity,01/01/2023,02/01/2023,"25,680",kWh
+176 N Professor St - East Hall,41-00060-1,Electricity,02/01/2023,03/01/2023,"28,800",kWh
+176 N Professor St - East Hall,41-00060-1,Electricity,03/01/2023,04/01/2023,"29,360",kWh
+176 N Professor St - East Hall,41-00060-1,Electricity,04/01/2023,05/01/2023,"29,760",kWh
+176 N Professor St - East Hall,41-00060-1,Electricity,05/01/2023,06/01/2023,"24,960",kWh
+176 N Professor St - East Hall,41-00060-1,Electricity,06/01/2023,07/01/2023,"4,720",kWh
+176 N Professor St - East Hall,41-00060-1,Electricity,07/01/2023,08/01/2023,"10,880",kWh
+176 N Professor St - East Hall,41-00060-1,Electricity,08/01/2023,09/01/2023,"13,760",kWh
+176 N Professor St - East Hall,41-00060-1,Electricity,09/01/2023,10/02/2023,"26,720",kWh
 176 N Professor St - East Hall,41-00060-1,Low Flow,10/01/2022,11/01/2022,"12,400",cf
 176 N Professor St - East Hall,41-00060-1,Low Flow,11/01/2022,12/01/2022,"13,700",cf
 176 N Professor St - East Hall,41-00060-1,Low Flow,12/01/2022,01/01/2023,"10,300",cf
@@ -639,35 +639,35 @@
 2 S Professor St - Talcott Hall,41-00371-1,Water,07/01/2023,08/01/2023,"3,000",cf
 2 S Professor St - Talcott Hall,41-00371-1,Water,08/01/2023,09/01/2023,"2,100",cf
 2 S Professor St - Talcott Hall,41-00371-1,Water,09/01/2023,10/01/2023,"8,000",cf
-2 S Professor St - Talcott Hall,41-00385-1,High Flow,10/01/2022,11/01/2022,"14,640",kWh
-2 S Professor St - Talcott Hall,41-00385-1,High Flow,11/01/2022,12/01/2022,"16,560",kWh
-2 S Professor St - Talcott Hall,41-00385-1,High Flow,12/01/2022,01/01/2023,"15,720",kWh
-2 S Professor St - Talcott Hall,41-00385-1,High Flow,01/01/2023,02/01/2023,"13,080",kWh
-2 S Professor St - Talcott Hall,41-00385-1,High Flow,02/01/2023,03/01/2023,"15,760",kWh
-2 S Professor St - Talcott Hall,41-00385-1,High Flow,03/01/2023,04/01/2023,"15,720",kWh
-2 S Professor St - Talcott Hall,41-00385-1,High Flow,04/01/2023,05/01/2023,"14,680",kWh
-2 S Professor St - Talcott Hall,41-00385-1,High Flow,05/01/2023,06/01/2023,"12,680",kWh
-2 S Professor St - Talcott Hall,41-00385-1,High Flow,06/01/2023,07/01/2023,"11,600",kWh
-2 S Professor St - Talcott Hall,41-00385-1,High Flow,07/01/2023,08/01/2023,"10,560",kWh
-2 S Professor St - Talcott Hall,41-00385-1,High Flow,08/01/2023,09/01/2023,"11,360",kWh
-2 S Professor St - Talcott Hall,41-00385-1,High Flow,09/01/2023,10/01/2023,"15,440",kWh
+2 S Professor St - Talcott Hall,41-00385-1,Electricity,10/01/2022,11/01/2022,"14,640",kWh
+2 S Professor St - Talcott Hall,41-00385-1,Electricity,11/01/2022,12/01/2022,"16,560",kWh
+2 S Professor St - Talcott Hall,41-00385-1,Electricity,12/01/2022,01/01/2023,"15,720",kWh
+2 S Professor St - Talcott Hall,41-00385-1,Electricity,01/01/2023,02/01/2023,"13,080",kWh
+2 S Professor St - Talcott Hall,41-00385-1,Electricity,02/01/2023,03/01/2023,"15,760",kWh
+2 S Professor St - Talcott Hall,41-00385-1,Electricity,03/01/2023,04/01/2023,"15,720",kWh
+2 S Professor St - Talcott Hall,41-00385-1,Electricity,04/01/2023,05/01/2023,"14,680",kWh
+2 S Professor St - Talcott Hall,41-00385-1,Electricity,05/01/2023,06/01/2023,"12,680",kWh
+2 S Professor St - Talcott Hall,41-00385-1,Electricity,06/01/2023,07/01/2023,"11,600",kWh
+2 S Professor St - Talcott Hall,41-00385-1,Electricity,07/01/2023,08/01/2023,"10,560",kWh
+2 S Professor St - Talcott Hall,41-00385-1,Electricity,08/01/2023,09/01/2023,"11,360",kWh
+2 S Professor St - Talcott Hall,41-00385-1,Electricity,09/01/2023,10/01/2023,"15,440",kWh
 
 
 
 
 
-20 E Lorain St,24-14140-7,Low Flow,10/01/2022,11/01/2022,515,kWh
-20 E Lorain St,24-14140-7,Low Flow,11/01/2022,12/01/2022,659,kWh
-20 E Lorain St,24-14140-7,Low Flow,12/01/2022,01/01/2023,549,kWh
-20 E Lorain St,24-14140-7,Low Flow,01/01/2023,02/01/2023,333,kWh
-20 E Lorain St,24-14140-7,Low Flow,02/01/2023,03/01/2023,625,kWh
-20 E Lorain St,24-14140-7,Low Flow,03/01/2023,04/01/2023,624,kWh
-20 E Lorain St,24-14140-7,Low Flow,04/01/2023,05/01/2023,608,kWh
-20 E Lorain St,24-14140-7,Low Flow,05/01/2023,06/01/2023,529,kWh
-20 E Lorain St,24-14140-7,Low Flow,06/01/2023,07/01/2023,56,kWh
-20 E Lorain St,24-14140-7,Low Flow,07/01/2023,08/01/2023,39,kWh
-20 E Lorain St,24-14140-7,Low Flow,08/01/2023,09/01/2023,228,kWh
-20 E Lorain St,24-14140-7,Low Flow,09/01/2023,10/01/2023,489,kWh
+20 E Lorain St,24-14140-7,Electricity,10/01/2022,11/01/2022,515,kWh
+20 E Lorain St,24-14140-7,Electricity,11/01/2022,12/01/2022,659,kWh
+20 E Lorain St,24-14140-7,Electricity,12/01/2022,01/01/2023,549,kWh
+20 E Lorain St,24-14140-7,Electricity,01/01/2023,02/01/2023,333,kWh
+20 E Lorain St,24-14140-7,Electricity,02/01/2023,03/01/2023,625,kWh
+20 E Lorain St,24-14140-7,Electricity,03/01/2023,04/01/2023,624,kWh
+20 E Lorain St,24-14140-7,Electricity,04/01/2023,05/01/2023,608,kWh
+20 E Lorain St,24-14140-7,Electricity,05/01/2023,06/01/2023,529,kWh
+20 E Lorain St,24-14140-7,Electricity,06/01/2023,07/01/2023,56,kWh
+20 E Lorain St,24-14140-7,Electricity,07/01/2023,08/01/2023,39,kWh
+20 E Lorain St,24-14140-7,Electricity,08/01/2023,09/01/2023,228,kWh
+20 E Lorain St,24-14140-7,Electricity,09/01/2023,10/01/2023,489,kWh
 20 E Lorain St,24-14140-7,Low Flow,10/01/2022,11/01/2022,500,cf
 20 E Lorain St,24-14140-7,Low Flow,11/01/2022,12/01/2022,500,cf
 20 E Lorain St,24-14140-7,Low Flow,12/01/2022,01/01/2023,400,cf
@@ -680,18 +680,18 @@
 20 E Lorain St,24-14140-7,Low Flow,07/01/2023,08/01/2023,0,cf
 20 E Lorain St,24-14140-7,Low Flow,08/01/2023,09/01/2023,100,cf
 20 E Lorain St,24-14140-7,Low Flow,09/01/2023,10/01/2023,400,cf
-20 E Lorain St,24-14140-7,Low Flow,10/01/2022,11/01/2022,0,Container
-20 E Lorain St,24-14140-7,Low Flow,11/01/2022,12/01/2022,0,Container
-20 E Lorain St,24-14140-7,Low Flow,12/01/2022,01/01/2023,0,Container
-20 E Lorain St,24-14140-7,Low Flow,01/01/2023,02/01/2023,0,Container
-20 E Lorain St,24-14140-7,Low Flow,02/01/2023,03/01/2023,0,Container
-20 E Lorain St,24-14140-7,Low Flow,03/01/2023,04/01/2023,0,Container
-20 E Lorain St,24-14140-7,Low Flow,04/01/2023,05/01/2023,0,Container
-20 E Lorain St,24-14140-7,Low Flow,05/01/2023,06/01/2023,0,Container
-20 E Lorain St,24-14140-7,Low Flow,06/01/2023,07/01/2023,0,Container
-20 E Lorain St,24-14140-7,Low Flow,07/01/2023,08/01/2023,0,Container
-20 E Lorain St,24-14140-7,Low Flow,08/01/2023,09/01/2023,0,Container
-20 E Lorain St,24-14140-7,Low Flow,09/01/2023,10/01/2023,0,Container
+20 E Lorain St,24-14140-7,Refuse,10/01/2022,11/01/2022,0,Container
+20 E Lorain St,24-14140-7,Refuse,11/01/2022,12/01/2022,0,Container
+20 E Lorain St,24-14140-7,Refuse,12/01/2022,01/01/2023,0,Container
+20 E Lorain St,24-14140-7,Refuse,01/01/2023,02/01/2023,0,Container
+20 E Lorain St,24-14140-7,Refuse,02/01/2023,03/01/2023,0,Container
+20 E Lorain St,24-14140-7,Refuse,03/01/2023,04/01/2023,0,Container
+20 E Lorain St,24-14140-7,Refuse,04/01/2023,05/01/2023,0,Container
+20 E Lorain St,24-14140-7,Refuse,05/01/2023,06/01/2023,0,Container
+20 E Lorain St,24-14140-7,Refuse,06/01/2023,07/01/2023,0,Container
+20 E Lorain St,24-14140-7,Refuse,07/01/2023,08/01/2023,0,Container
+20 E Lorain St,24-14140-7,Refuse,08/01/2023,09/01/2023,0,Container
+20 E Lorain St,24-14140-7,Refuse,09/01/2023,10/01/2023,0,Container
 
 
 
@@ -738,18 +738,18 @@
 
 
 
-207 Woodland St - Zechial House,41-00180-1,High Flow,10/01/2022,11/01/2022,"8,080",kWh
-207 Woodland St - Zechial House,41-00180-1,High Flow,11/01/2022,12/01/2022,"6,880",kWh
-207 Woodland St - Zechial House,41-00180-1,High Flow,12/01/2022,01/01/2023,"6,400",kWh
-207 Woodland St - Zechial House,41-00180-1,High Flow,01/01/2023,02/01/2023,"5,560",kWh
-207 Woodland St - Zechial House,41-00180-1,High Flow,02/01/2023,03/01/2023,"6,480",kWh
-207 Woodland St - Zechial House,41-00180-1,High Flow,03/01/2023,04/01/2023,"6,880",kWh
-207 Woodland St - Zechial House,41-00180-1,High Flow,04/01/2023,05/01/2023,"7,520",kWh
-207 Woodland St - Zechial House,41-00180-1,High Flow,05/01/2023,06/01/2023,"7,040",kWh
-207 Woodland St - Zechial House,41-00180-1,High Flow,06/01/2023,07/01/2023,"2,800",kWh
-207 Woodland St - Zechial House,41-00180-1,High Flow,07/01/2023,08/01/2023,"4,000",kWh
-207 Woodland St - Zechial House,41-00180-1,High Flow,08/01/2023,09/01/2023,"5,000",kWh
-207 Woodland St - Zechial House,41-00180-1,High Flow,09/01/2023,10/01/2023,"8,320",kWh
+207 Woodland St - Zechial House,41-00180-1,Electricity,10/01/2022,11/01/2022,"8,080",kWh
+207 Woodland St - Zechial House,41-00180-1,Electricity,11/01/2022,12/01/2022,"6,880",kWh
+207 Woodland St - Zechial House,41-00180-1,Electricity,12/01/2022,01/01/2023,"6,400",kWh
+207 Woodland St - Zechial House,41-00180-1,Electricity,01/01/2023,02/01/2023,"5,560",kWh
+207 Woodland St - Zechial House,41-00180-1,Electricity,02/01/2023,03/01/2023,"6,480",kWh
+207 Woodland St - Zechial House,41-00180-1,Electricity,03/01/2023,04/01/2023,"6,880",kWh
+207 Woodland St - Zechial House,41-00180-1,Electricity,04/01/2023,05/01/2023,"7,520",kWh
+207 Woodland St - Zechial House,41-00180-1,Electricity,05/01/2023,06/01/2023,"7,040",kWh
+207 Woodland St - Zechial House,41-00180-1,Electricity,06/01/2023,07/01/2023,"2,800",kWh
+207 Woodland St - Zechial House,41-00180-1,Electricity,07/01/2023,08/01/2023,"4,000",kWh
+207 Woodland St - Zechial House,41-00180-1,Electricity,08/01/2023,09/01/2023,"5,000",kWh
+207 Woodland St - Zechial House,41-00180-1,Electricity,09/01/2023,10/01/2023,"8,320",kWh
 207 Woodland St - Zechial House,41-00180-1,High Flow,10/01/2022,11/01/2022,"1,400",cf
 207 Woodland St - Zechial House,41-00180-1,High Flow,11/01/2022,12/01/2022,"1,400",cf
 207 Woodland St - Zechial House,41-00180-1,High Flow,12/01/2022,01/01/2023,600,cf
@@ -808,18 +808,18 @@
 
 
 
-216 S Professor St - Johnson House,41-00520-1,Low Flow,10/01/2022,11/01/2022,"2,153",kWh
-216 S Professor St - Johnson House,41-00520-1,Low Flow,11/01/2022,12/01/2022,"2,192",kWh
-216 S Professor St - Johnson House,41-00520-1,Low Flow,12/01/2022,01/01/2023,"2,032",kWh
-216 S Professor St - Johnson House,41-00520-1,Low Flow,01/01/2023,02/01/2023,"1,987",kWh
-216 S Professor St - Johnson House,41-00520-1,Low Flow,02/01/2023,03/01/2023,"1,775",kWh
-216 S Professor St - Johnson House,41-00520-1,Low Flow,03/01/2023,04/01/2023,"1,775",kWh
-216 S Professor St - Johnson House,41-00520-1,Low Flow,04/01/2023,05/01/2023,"1,724",kWh
-216 S Professor St - Johnson House,41-00520-1,Low Flow,05/01/2023,06/01/2023,"1,329",kWh
-216 S Professor St - Johnson House,41-00520-1,Low Flow,06/01/2023,07/01/2023,737,kWh
-216 S Professor St - Johnson House,41-00520-1,Low Flow,07/01/2023,08/01/2023,753,kWh
-216 S Professor St - Johnson House,41-00520-1,Low Flow,08/01/2023,09/01/2023,"1,036",kWh
-216 S Professor St - Johnson House,41-00520-1,Low Flow,09/01/2023,10/01/2023,"1,764",kWh
+216 S Professor St - Johnson House,41-00520-1,Electricity,10/01/2022,11/01/2022,"2,153",kWh
+216 S Professor St - Johnson House,41-00520-1,Electricity,11/01/2022,12/01/2022,"2,192",kWh
+216 S Professor St - Johnson House,41-00520-1,Electricity,12/01/2022,01/01/2023,"2,032",kWh
+216 S Professor St - Johnson House,41-00520-1,Electricity,01/01/2023,02/01/2023,"1,987",kWh
+216 S Professor St - Johnson House,41-00520-1,Electricity,02/01/2023,03/01/2023,"1,775",kWh
+216 S Professor St - Johnson House,41-00520-1,Electricity,03/01/2023,04/01/2023,"1,775",kWh
+216 S Professor St - Johnson House,41-00520-1,Electricity,04/01/2023,05/01/2023,"1,724",kWh
+216 S Professor St - Johnson House,41-00520-1,Electricity,05/01/2023,06/01/2023,"1,329",kWh
+216 S Professor St - Johnson House,41-00520-1,Electricity,06/01/2023,07/01/2023,737,kWh
+216 S Professor St - Johnson House,41-00520-1,Electricity,07/01/2023,08/01/2023,753,kWh
+216 S Professor St - Johnson House,41-00520-1,Electricity,08/01/2023,09/01/2023,"1,036",kWh
+216 S Professor St - Johnson House,41-00520-1,Electricity,09/01/2023,10/01/2023,"1,764",kWh
 216 S Professor St - Johnson House,41-00520-1,Low Flow,10/01/2022,11/01/2022,"3,100",cf
 216 S Professor St - Johnson House,41-00520-1,Low Flow,11/01/2022,12/01/2022,"3,300",cf
 216 S Professor St - Johnson House,41-00520-1,Low Flow,12/01/2022,01/01/2023,"2,300",cf
@@ -866,18 +866,18 @@
 
 
 
-36 S Pleasant St - Firelands Dorm,26-10505-2,High Flow,10/01/2022,11/01/2022,"19,800",kWh
-36 S Pleasant St - Firelands Dorm,26-10505-2,High Flow,11/01/2022,12/01/2022,"23,880",kWh
-36 S Pleasant St - Firelands Dorm,26-10505-2,High Flow,12/01/2022,01/01/2023,"28,560",kWh
-36 S Pleasant St - Firelands Dorm,26-10505-2,High Flow,01/01/2023,02/01/2023,"27,640",kWh
-36 S Pleasant St - Firelands Dorm,26-10505-2,High Flow,02/01/2023,03/01/2023,"26,200",kWh
-36 S Pleasant St - Firelands Dorm,26-10505-2,High Flow,03/01/2023,04/01/2023,"27,160",kWh
-36 S Pleasant St - Firelands Dorm,26-10505-2,High Flow,04/01/2023,05/01/2023,"22,480",kWh
-36 S Pleasant St - Firelands Dorm,26-10505-2,High Flow,05/01/2023,06/01/2023,"20,560",kWh
-36 S Pleasant St - Firelands Dorm,26-10505-2,High Flow,06/01/2023,07/01/2023,"15,840",kWh
-36 S Pleasant St - Firelands Dorm,26-10505-2,High Flow,07/01/2023,08/01/2023,"19,440",kWh
-36 S Pleasant St - Firelands Dorm,26-10505-2,High Flow,08/01/2023,09/01/2023,"17,680",kWh
-36 S Pleasant St - Firelands Dorm,26-10505-2,High Flow,09/01/2023,10/01/2023,"17,920",kWh
+36 S Pleasant St - Firelands Dorm,26-10505-2,Electricity,10/01/2022,11/01/2022,"19,800",kWh
+36 S Pleasant St - Firelands Dorm,26-10505-2,Electricity,11/01/2022,12/01/2022,"23,880",kWh
+36 S Pleasant St - Firelands Dorm,26-10505-2,Electricity,12/01/2022,01/01/2023,"28,560",kWh
+36 S Pleasant St - Firelands Dorm,26-10505-2,Electricity,01/01/2023,02/01/2023,"27,640",kWh
+36 S Pleasant St - Firelands Dorm,26-10505-2,Electricity,02/01/2023,03/01/2023,"26,200",kWh
+36 S Pleasant St - Firelands Dorm,26-10505-2,Electricity,03/01/2023,04/01/2023,"27,160",kWh
+36 S Pleasant St - Firelands Dorm,26-10505-2,Electricity,04/01/2023,05/01/2023,"22,480",kWh
+36 S Pleasant St - Firelands Dorm,26-10505-2,Electricity,05/01/2023,06/01/2023,"20,560",kWh
+36 S Pleasant St - Firelands Dorm,26-10505-2,Electricity,06/01/2023,07/01/2023,"15,840",kWh
+36 S Pleasant St - Firelands Dorm,26-10505-2,Electricity,07/01/2023,08/01/2023,"19,440",kWh
+36 S Pleasant St - Firelands Dorm,26-10505-2,Electricity,08/01/2023,09/01/2023,"17,680",kWh
+36 S Pleasant St - Firelands Dorm,26-10505-2,Electricity,09/01/2023,10/01/2023,"17,920",kWh
 36 S Pleasant St - Firelands Dorm,26-10505-2,High Flow,10/01/2022,11/01/2022,0,cf
 36 S Pleasant St - Firelands Dorm,26-10505-2,High Flow,11/01/2022,12/01/2022,0,cf
 36 S Pleasant St - Firelands Dorm,26-10505-2,High Flow,12/01/2022,01/01/2023,0,cf
@@ -992,12 +992,7 @@
 68 S Professor St (formerly Lewis Ctr) ,32-19545-1,Water,10/01/2022,11/01/2022,900,cf
 68 S Professor St (formerly Lewis Ctr) ,32-19545-1,Water,11/01/2022,12/01/2022,0,cf
 68 S Professor St (formerly Lewis Ctr) ,32-19545-1,Water,12/01/2022,01/01/2023,0,cf
-68 S Professor St (formerly Lewis Ctr) ,32-19545-1,Water,01/01/2023,02/01/2023,0,cf
-68 S Professor St (formerly Lewis Ctr) ,32-19545-1,Water,02/01/2023,03/01/2023,0,cf
-68 S Professor St (formerly Lewis Ctr) ,32-19545-1,Water,03/01/2023,04/01/2023,100,cf
-68 S Professor St (formerly Lewis Ctr) ,32-19545-1,Water,04/01/2023,05/01/2023,0,cf
-68 S Professor St (formerly Lewis Ctr) ,32-19545-1,Water,05/01/2023,06/01/2023,0,cf
-68 S Professor St (formerly L93 Elm St - Fairchild House,41-00450-1,Electricity,01/01/2023,02/01/2023,"18,600",kWh
+68 S Professor St (formerly Lewis Ct93 Elm St - Fairchild House,41-00450-1,Electricity,01/01/2023,02/01/2023,"18,600",kWh
 93 Elm St - Fairchild House,41-00450-1,Electricity,02/01/2023,03/01/2023,"24,600",kWh
 93 Elm St - Fairchild House,41-00450-1,Electricity,03/01/2023,04/01/2023,"25,080",kWh
 93 Elm St - Fairchild House,41-00450-1,Electricity,04/01/2023,05/01/2023,"24,720",kWh
