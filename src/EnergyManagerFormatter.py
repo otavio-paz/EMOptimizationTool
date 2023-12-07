@@ -42,6 +42,8 @@ def update_water_meter_type(output_file_path, account_numbers_file):
     # Write the updated lines back to the output file
     with open(output_file_path, 'w', newline='') as output_file:
         csv_writer = csv.writer(output_file)
+        # for line in lines:  debugging
+        #     print("New map:", line)
         csv_writer.writerows(lines)
 
 """
@@ -85,13 +87,20 @@ else:
 
                     # Remove specified columns and write to the output file
                     output_file_path = os.path.join(current_directory, output_file_name)
+
                     with open(output_file_path, 'w', newline='') as output_file:
                         csv_writer = csv.writer(output_file)
                         for line in lines:
+                            # Stop
+                            if "Grand Total" in line:
+                                break
+
                             # Check if the value in the third column is "natural gas" or "wastewater"
-                            if line[2].lower() not in ["natural gas", "wastewater"]:
+                            if line[2].lower() not in ["natural gas", "wastewater", ]:
                                 modified_line = [line[i] for i in range(len(line)) if i not in columns_to_remove]
                                 csv_writer.writerow(modified_line)
+                            
+                            
 
                     print(f"Columns removed, and lines with 'natural gas' or 'wastewater' deleted. Output saved to {output_file_name}")
                     # Close program
@@ -102,10 +111,13 @@ else:
             # Mode 2: Buildings are in the same .csv file (vertically positioned)
             all_buildings_file = "all_buildings.csv"
 
-            with open(all_buildings_file, 'w', newline='') as output_file:
+            # Create a new output file with a modified name
+            output_file_name = "all_buildings_mapped.csv"
+            output_file_path = os.path.join(current_directory, output_file_name)
+
+            with open(output_file_path, 'w', newline='') as output_file:
                 csv_writer = csv.writer(output_file)
                 previous_building = None
-                empty_lines_added = 0
 
                 for csv_file in csv_files:
                     input_file_path = os.path.join(current_directory, csv_file)
@@ -115,11 +127,15 @@ else:
                         lines = list(csv_reader)
 
                         for line in lines:
+                            # Stop 
+                            if "Grand Total" in line:
+                                break
+
                             # Debug statement
                             # print("Line length:", len(line))
                             
                             # Check if the value in the third column is "natural gas" or "wastewater"
-                            if line[2].lower() not in ["natural gas", "wastewater"]:
+                            if line[2].lower() not in ["natural gas", "wastewater", "refuse"]:
                                 # Remove specified columns
                                 modified_line = [line[i] for i in range(len(line)) if i not in columns_to_remove]
 
@@ -129,14 +145,15 @@ else:
                                         # Add 5 empty lines if the building changes
                                         for _ in range(5):
                                             csv_writer.writerow([])
-                                    empty_lines_added = 0
                                     previous_building = line[0]
-
+                                # print("Modified line: ", modified_line)
                                 csv_writer.writerow(modified_line)
+                            
+                            
 
                 print(f"Columns removed, Natural Gas and Wastewater lines skipped, and output saved to {all_buildings_file}")
                 # Replace the account number of water meters by `High Flow` or `Low Flow`
-                update_water_meter_type("all_buildings.csv", "account_numbers.csv")
+                update_water_meter_type(output_file_path, "account_numbers.csv")
                 # Close program
                 sys.exit()
 

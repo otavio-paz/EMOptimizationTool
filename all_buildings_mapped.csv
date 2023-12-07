@@ -680,18 +680,6 @@
 20 E Lorain St,24-14140-7,Low Flow,07/01/2023,08/01/2023,0,cf
 20 E Lorain St,24-14140-7,Low Flow,08/01/2023,09/01/2023,100,cf
 20 E Lorain St,24-14140-7,Low Flow,09/01/2023,10/01/2023,400,cf
-20 E Lorain St,24-14140-7,Refuse,10/01/2022,11/01/2022,0,Container
-20 E Lorain St,24-14140-7,Refuse,11/01/2022,12/01/2022,0,Container
-20 E Lorain St,24-14140-7,Refuse,12/01/2022,01/01/2023,0,Container
-20 E Lorain St,24-14140-7,Refuse,01/01/2023,02/01/2023,0,Container
-20 E Lorain St,24-14140-7,Refuse,02/01/2023,03/01/2023,0,Container
-20 E Lorain St,24-14140-7,Refuse,03/01/2023,04/01/2023,0,Container
-20 E Lorain St,24-14140-7,Refuse,04/01/2023,05/01/2023,0,Container
-20 E Lorain St,24-14140-7,Refuse,05/01/2023,06/01/2023,0,Container
-20 E Lorain St,24-14140-7,Refuse,06/01/2023,07/01/2023,0,Container
-20 E Lorain St,24-14140-7,Refuse,07/01/2023,08/01/2023,0,Container
-20 E Lorain St,24-14140-7,Refuse,08/01/2023,09/01/2023,0,Container
-20 E Lorain St,24-14140-7,Refuse,09/01/2023,10/01/2023,0,Container
 
 
 
@@ -895,23 +883,7 @@
 36 S Pleasant St - Firelands Dorm,26-10506-1,Low Flow,12/01/2022,01/01/2023,"2,800",cf
 36 S Pleasant St - Firelands Dorm,26-10506-1,Low Flow,01/01/2023,02/01/2023,"1,800",cf
 36 S Pleasant St - Firelands Dorm,26-10506-1,Low Flow,02/01/2023,03/01/2023,"3,400",cf
-36 S Pleasant St - Firelands Dorm,26-10506-1,Low Flow,03/01/2023,04/01/2023,"3,100",cf
-36 S Pleasant St - Firelands Dorm,26-10506-1,Low Flow,04/01/2023,05/01/2023,"4,200",cf
-36 S Pleasant St - Firelands Dorm,26-10506-1,Low Flow,05/01/2023,06/01/2023,"3,100",cf
-36 S Pleasant St - Firelands Dorm,26-10506-1,Low Flow,06/01/2023,07/01/2023,900,cf
-36 S Pleasant St - Firelands Dorm,26-10506-1,Low Flow,07/01/2023,08/01/2023,600,cf
-36 S Pleasant St - Firelands Dorm,26-10506-1,Low Flow,08/01/2023,09/01/2023,"1,800",cf
-36 S Pleasant St - Firelands Dorm,26-10506-1,Low Flow,09/01/2023,10/01/2023,"3,700",cf
-
-
-
-
-
-40 W Lorain St - Asia House Quadrangle,41-00130-1,Electricity,10/01/2022,11/01/2022,"23,160",kWh
-40 W Lorain St - Asia House Quadrangle,41-00130-1,Electricity,11/01/2022,12/01/2022,"23,200",kWh
-40 W Lorain St - Asia House Quadrangle,41-00130-1,Electricity,12/01/2022,01/01/2023,"21,760",kWh
-40 W Lorain St - Asia House Quadrangle,41-00130-1,Electricity,01/01/2023,02/01/2023,"21,440",kWh
-40 W Lorain St - Asia House Quadrangle,41-00130-1,Electricity,02/01/2023,03/01/2023,"19,880",kWh
+36 S P40 W Lorain St - Asia House Quadrangle,41-00130-1,Electricity,02/01/2023,03/01/2023,"19,880",kWh
 40 W Lorain St - Asia House Quadrangle,41-00130-1,Electricity,03/01/2023,04/01/2023,"20,720",kWh
 40 W Lorain St - Asia House Quadrangle,41-00130-1,Electricity,04/01/2023,05/01/2023,"21,760",kWh
 40 W Lorain St - Asia House Quadrangle,41-00130-1,Electricity,05/01/2023,06/01/2023,"20,040",kWh
@@ -977,22 +949,27 @@
 68 S Professor St (formerly Lewis Ctr) ,32-19540-1,Water,07/01/2023,08/01/2023,0,cf
 68 S Professor St (formerly Lewis Ctr) ,32-19540-1,Water,08/01/2023,09/01/2023,100,cf
 68 S Professor St (formerly Lewis Ctr) ,32-19540-1,Water,09/01/2023,10/01/2023,100,cf
-68 S Professor St (formerly Lewis Ctr) ,32-19540-1,Refuse,10/01/2022,11/01/2022,0,Container
-68 S Professor St (formerly Lewis Ctr) ,32-19540-1,Refuse,11/01/2022,12/01/2022,0,Container
-68 S Professor St (formerly Lewis Ctr) ,32-19540-1,Refuse,12/01/2022,01/01/2023,0,Container
-68 S Professor St (formerly Lewis Ctr) ,32-19540-1,Refuse,01/01/2023,02/01/2023,0,Container
-68 S Professor St (formerly Lewis Ctr) ,32-19540-1,Refuse,02/01/2023,03/01/2023,0,Container
-68 S Professor St (formerly Lewis Ctr) ,32-19540-1,Refuse,03/01/2023,04/01/2023,0,Container
-68 S Professor St (formerly Lewis Ctr) ,32-19540-1,Refuse,04/01/2023,05/01/2023,0,Container
-68 S Professor St (formerly Lewis Ctr) ,32-19540-1,Refuse,05/01/2023,06/01/2023,0,Container
-68 S Professor St (formerly Lewis Ctr) ,32-19540-1,Refuse,06/01/2023,07/01/2023,0,Container
-68 S Professor St (formerly Lewis Ctr) ,32-19540-1,Refuse,07/01/2023,08/01/2023,0,Container
-68 S Professor St (formerly Lewis Ctr) ,32-19540-1,Refuse,08/01/2023,09/01/2023,0,Container
-68 S Professor St (formerly Lewis Ctr) ,32-19540-1,Refuse,09/01/2023,10/01/2023,0,Container
 68 S Professor St (formerly Lewis Ctr) ,32-19545-1,Water,10/01/2022,11/01/2022,900,cf
 68 S Professor St (formerly Lewis Ctr) ,32-19545-1,Water,11/01/2022,12/01/2022,0,cf
 68 S Professor St (formerly Lewis Ctr) ,32-19545-1,Water,12/01/2022,01/01/2023,0,cf
-68 S Professor St (formerly Lewis Ct93 Elm St - Fairchild House,41-00450-1,Electricity,01/01/2023,02/01/2023,"18,600",kWh
+68 S Professor St (formerly Lewis Ctr) ,32-19545-1,Water,01/01/2023,02/01/2023,0,cf
+68 S Professor St (formerly Lewis Ctr) ,32-19545-1,Water,02/01/2023,03/01/2023,0,cf
+68 S Professor St (formerly Lewis Ctr) ,32-19545-1,Water,03/01/2023,04/01/2023,100,cf
+68 S Professor St (formerly Lewis Ctr) ,32-19545-1,Water,04/01/2023,05/01/2023,0,cf
+68 S Professor St (formerly Lewis Ctr) ,32-19545-1,Water,05/01/2023,06/01/2023,0,cf
+68 S Professor St (formerly Lewis Ctr) ,32-19545-1,Water,06/01/2023,07/01/2023,0,cf
+68 S Professor St (formerly Lewis Ctr) ,32-19545-1,Water,07/01/2023,08/01/2023,100,cf
+68 S Professor St (formerly Lewis Ctr) ,32-19545-1,Water,08/01/2023,09/01/2023,0,cf
+68 S Professor St (formerly Lewis Ctr) ,32-19545-1,Water,09/01/2023,10/01/2023,0,cf
+
+
+
+
+
+93 Elm St - Fairchild House,41-00450-1,Electricity,10/01/2022,11/01/2022,"24,240",kWh
+93 Elm St - Fairchild House,41-00450-1,Electricity,11/01/2022,12/01/2022,"24,640",kWh
+93 Elm St - Fairchild House,41-00450-1,Electricity,12/01/2022,01/01/2023,"22,800",kWh
+93 Elm St - Fairchild House,41-00450-1,Electricity,01/01/2023,02/01/2023,"18,600",kWh
 93 Elm St - Fairchild House,41-00450-1,Electricity,02/01/2023,03/01/2023,"24,600",kWh
 93 Elm St - Fairchild House,41-00450-1,Electricity,03/01/2023,04/01/2023,"25,080",kWh
 93 Elm St - Fairchild House,41-00450-1,Electricity,04/01/2023,05/01/2023,"24,720",kWh
@@ -1065,12 +1042,6 @@
 95 Union St - Langston Hall,41-00031-1,Water,07/01/2023,08/01/2023,"2,100",cf
 95 Union St - Langston Hall,41-00031-1,Water,08/01/2023,09/01/2023,"4,100",cf
 95 Union St - Langston Hall,41-00031-1,Water,09/01/2023,10/01/2023,"17,500",cf
-
-
-
-
-
-Grand Total,,,,,,
 
 
 
