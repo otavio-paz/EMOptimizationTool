@@ -24,7 +24,7 @@ def update_water_meter_type(output_file_path, account_numbers_file):
     account_water_meter_mapping.pop('')
     account_water_meter_mapping.pop('Account number')
 
-    # print("Mapping:", account_water_meter_mapping)
+    print("Mapping:", account_water_meter_mapping)
 
     # Update water meter types in the output file
     with open(output_file_path, 'r') as output_file:
