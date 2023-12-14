@@ -19,13 +19,18 @@ def update_water_meter_type(output_file_path, account_numbers_file):
         account_numbers_data = list(account_reader)
     
     # Create a dictionary to store the mapping of account numbers to water meter types
-    account_water_meter_mapping = {str(row[1]): str(row[2]) for row in account_numbers_data}
+    account_water_meter_mapping = {str(row[1]).strip(): str(row[2]).strip() for row in account_numbers_data}
+    account_water_meter_mapping.pop('-')
+    account_water_meter_mapping.pop('')
+    account_water_meter_mapping.pop('Account number')
+
+    # print("Mapping:", account_water_meter_mapping)
 
     # Update water meter types in the output file
     with open(output_file_path, 'r') as output_file:
         lines = list(csv.reader(output_file))
 
-    print(lines)
+    # print(lines)
 
     for i in range(len(lines)):
         if len(lines[i]) == 0:
@@ -37,15 +42,15 @@ def update_water_meter_type(output_file_path, account_numbers_file):
 
         # Check if the account number is in the mapping dictionary AND the meter is the Water type
         # Because Electricity data has also the same account number
-        if account_number in account_water_meter_mapping and lines[i][2].lower() == "water":
+        if account_number in account_water_meter_mapping and account_number != '-' and lines[i][2].lower() == "water":
             # Update the water meter type in the third column
             lines[i][2] = account_water_meter_mapping[account_number]
 
     # Write the updated lines back to the output file
     with open(output_file_path, 'w', newline='') as output_file:
         csv_writer = csv.writer(output_file)
-        # for line in lines:
-        #     print("New map:", line)
+        for line in lines:
+            print("New map:", line)
         csv_writer.writerows(lines)
 
 """
