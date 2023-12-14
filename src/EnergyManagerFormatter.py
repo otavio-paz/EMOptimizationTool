@@ -25,6 +25,8 @@ def update_water_meter_type(output_file_path, account_numbers_file):
     with open(output_file_path, 'r') as output_file:
         lines = list(csv.reader(output_file))
 
+    print(lines)
+
     for i in range(len(lines)):
         if len(lines[i]) == 0:
             # Skip lines if it's an empty line
@@ -42,7 +44,7 @@ def update_water_meter_type(output_file_path, account_numbers_file):
     # Write the updated lines back to the output file
     with open(output_file_path, 'w', newline='') as output_file:
         csv_writer = csv.writer(output_file)
-        # for line in lines:  debugging
+        # for line in lines:
         #     print("New map:", line)
         csv_writer.writerows(lines)
 
@@ -100,8 +102,6 @@ else:
                                 modified_line = [line[i] for i in range(len(line)) if i not in columns_to_remove]
                                 csv_writer.writerow(modified_line)
                             
-                            
-
                     print(f"Columns removed, and lines with 'natural gas' or 'wastewater' deleted. Output saved to {output_file_name}")
                     # Close program
                     sys.exit()
@@ -109,7 +109,6 @@ else:
         elif mode_choice == "2":
 
             # Mode 2: Buildings are in the same .csv file (vertically positioned)
-            all_buildings_file = "all_buildings.csv"
 
             # Create a new output file with a modified name
             output_file_name = "all_buildings_mapped.csv"
@@ -119,39 +118,36 @@ else:
                 csv_writer = csv.writer(output_file)
                 previous_building = None
 
-                for csv_file in csv_files:
-                    input_file_path = os.path.join(current_directory, csv_file)
+                input_file_path = os.path.join(current_directory, "Account Review.CSV")
 
-                    with open(input_file_path, 'r') as input_file:
-                        csv_reader = csv.reader(input_file)
-                        lines = list(csv_reader)
+                with open(input_file_path, 'r') as input_file:
+                    csv_reader = csv.reader(input_file)
+                    lines = list(csv_reader)
 
-                        for line in lines:
-                            # Stop 
-                            if "Grand Total" in line:
-                                break
+                    for line in lines:
+                        # Stop 
+                        if "Grand Total" in line:
+                            break
 
-                            # Debug statement
-                            # print("Line length:", len(line))
-                            
-                            # Check if the value in the third column is "natural gas" or "wastewater"
-                            if line[2].lower() not in ["natural gas", "wastewater", "refuse"]:
-                                # Remove specified columns
-                                modified_line = [line[i] for i in range(len(line)) if i not in columns_to_remove]
+                        # Debug statement
+                        # print("Line length:", len(line))
+                        
+                        # Check if the value in the third column is "natural gas" or "wastewater"
+                        if line[2].lower() not in ["natural gas", "wastewater", "refuse"]:
+                            # Remove specified columns
+                            modified_line = [line[i] for i in range(len(line)) if i not in columns_to_remove]
 
-                                # Check if the building changes
-                                if line[0] != previous_building:
-                                    if previous_building is not None:
-                                        # Add 5 empty lines if the building changes
-                                        for _ in range(5):
-                                            csv_writer.writerow([])
-                                    previous_building = line[0]
-                                # print("Modified line: ", modified_line)
-                                csv_writer.writerow(modified_line)
-                            
-                            
+                            # Check if the building changes
+                            if line[0] != previous_building:
+                                if previous_building is not None:
+                                    # Add 5 empty lines if the building changes
+                                    for _ in range(5):
+                                        csv_writer.writerow([])
+                                previous_building = line[0]
+                            # print("Modified line: ", modified_line)
+                            csv_writer.writerow(modified_line)
 
-                print(f"Columns removed, Natural Gas and Wastewater lines skipped, and output saved to {all_buildings_file}")
+                print(f"Columns removed, Natural Gas and Wastewater lines skipped.")
                 # Replace the account number of water meters by `High Flow` or `Low Flow`
                 update_water_meter_type(output_file_path, "account_numbers.csv")
                 # Close program
