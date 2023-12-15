@@ -12,7 +12,8 @@ import sys
     Returns:
     None
     """
-def update_water_meter_type(output_file_path, account_numbers_file):
+def update_water_meter_type(input_file_path, account_numbers_file):
+    
     # Read account numbers from the specified file
     with open(account_numbers_file, 'r') as account_numbers_file:
         account_reader = csv.reader(account_numbers_file)
@@ -24,34 +25,35 @@ def update_water_meter_type(output_file_path, account_numbers_file):
     account_water_meter_mapping.pop('')
     account_water_meter_mapping.pop('Account number')
 
-    print("Mapping:", account_water_meter_mapping)
-
+    # print("Mapping:", account_water_meter_mapping)
+ 
     # Update water meter types in the output file
-    with open(output_file_path, 'r') as output_file:
-        lines = list(csv.reader(output_file))
 
-    # print(lines)
+    with open("Energy Manager Data.csv", 'w', newline='') as final_output:
+        csv_writer = csv.writer(final_output)
 
-    for i in range(len(lines)):
-        if len(lines[i]) == 0:
-            # Skip lines if it's an empty line
-            continue
+        with open(input_file_path, 'r') as input_file:
+            csv_reader = csv.reader(input_file)
+            updated_lines = list(csv_reader)
 
-        # Converting the account_number to string 
-        account_number = str(lines[i][1])
+            for line in updated_lines:
+                # print(line) # debugging
+                
+                # If the line is empty
+                if len(line) == 0:
+                    csv_writer.writerow(line)
+                    continue
 
-        # Check if the account number is in the mapping dictionary AND the meter is the Water type
-        # Because Electricity data has also the same account number
-        if account_number in account_water_meter_mapping and account_number != '-' and lines[i][2].lower() == "water":
-            # Update the water meter type in the third column
-            lines[i][2] = account_water_meter_mapping[account_number]
+                # Converting the account_number to string 
+                account_number = str(line[1])
 
-    # Write the updated lines back to the output file
-    with open(output_file_path, 'w', newline='') as output_file:
-        csv_writer = csv.writer(output_file)
-        for line in lines:
-            print("New map:", line)
-        csv_writer.writerows(lines)
+                # Check if the account number is in the mapping dictionary AND the meter is the Water type
+                # Because Electricity data has also the same account number
+                if account_number in account_water_meter_mapping and line[2].lower() == "water":
+                    # Update the water meter type in the third column
+                    line[2] = account_water_meter_mapping[account_number]
+
+                csv_writer.writerow(line)
 
 """
 Main function:
@@ -98,10 +100,6 @@ else:
                     with open(output_file_path, 'w', newline='') as output_file:
                         csv_writer = csv.writer(output_file)
                         for line in lines:
-                            # Stop
-                            if "Grand Total" in line:
-                                break
-
                             # Check if the value in the third column is "natural gas" or "wastewater"
                             if line[2].lower() not in ["natural gas", "wastewater", ]:
                                 modified_line = [line[i] for i in range(len(line)) if i not in columns_to_remove]
@@ -130,10 +128,6 @@ else:
                     lines = list(csv_reader)
 
                     for line in lines:
-                        # Stop 
-                        if "Grand Total" in line:
-                            break
-
                         # Debug statement
                         # print("Line length:", len(line))
                         
@@ -152,11 +146,13 @@ else:
                             # print("Modified line: ", modified_line)
                             csv_writer.writerow(modified_line)
 
-                print(f"Columns removed, Natural Gas and Wastewater lines skipped.")
-                # Replace the account number of water meters by `High Flow` or `Low Flow`
-                update_water_meter_type(output_file_path, "account_numbers.csv")
-                # Close program
-                sys.exit()
+            print(f"Columns removed, Natural Gas and Wastewater lines skipped. Water meters were mapped and saved as `Energy Manager Data`.")
+            # Replace the account number of water meters by `High Flow` or `Low Flow`
+            update_water_meter_type(output_file_path, "account_numbers.csv")
+            # Delete the intermediate file
+            os.remove(output_file_path)
+            # Close program
+            sys.exit()
 
         elif mode_choice == "3":
             sys.exit()

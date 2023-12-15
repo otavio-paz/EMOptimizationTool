@@ -879,7 +879,27 @@
 36 S Pleasant St - Firelands Dorm,26-10505-2,High Flow,08/01/2023,09/01/2023,0,cf
 36 S Pleasant St - Firelands Dorm,26-10505-2,High Flow,09/01/2023,10/01/2023,0,cf
 36 S Pleasant St - Firelands Dorm,26-10506-1,Low Flow,10/01/2022,11/01/2022,"5,000",cf
-36 S Pleasant St - Firelands Dorm,26-10506-1,Low Flow,11/01/2022,12/01/2022,"3,40040 W Lorain St - Asia House Quadrangle,41-00130-1,Electricity,02/01/2023,03/01/2023,"19,880",kWh
+36 S Pleasant St - Firelands Dorm,26-10506-1,Low Flow,11/01/2022,12/01/2022,"3,400",cf
+36 S Pleasant St - Firelands Dorm,26-10506-1,Low Flow,12/01/2022,01/01/2023,"2,800",cf
+36 S Pleasant St - Firelands Dorm,26-10506-1,Low Flow,01/01/2023,02/01/2023,"1,800",cf
+36 S Pleasant St - Firelands Dorm,26-10506-1,Low Flow,02/01/2023,03/01/2023,"3,400",cf
+36 S Pleasant St - Firelands Dorm,26-10506-1,Low Flow,03/01/2023,04/01/2023,"3,100",cf
+36 S Pleasant St - Firelands Dorm,26-10506-1,Low Flow,04/01/2023,05/01/2023,"4,200",cf
+36 S Pleasant St - Firelands Dorm,26-10506-1,Low Flow,05/01/2023,06/01/2023,"3,100",cf
+36 S Pleasant St - Firelands Dorm,26-10506-1,Low Flow,06/01/2023,07/01/2023,900,cf
+36 S Pleasant St - Firelands Dorm,26-10506-1,Low Flow,07/01/2023,08/01/2023,600,cf
+36 S Pleasant St - Firelands Dorm,26-10506-1,Low Flow,08/01/2023,09/01/2023,"1,800",cf
+36 S Pleasant St - Firelands Dorm,26-10506-1,Low Flow,09/01/2023,10/01/2023,"3,700",cf
+
+
+
+
+
+40 W Lorain St - Asia House Quadrangle,41-00130-1,Electricity,10/01/2022,11/01/2022,"23,160",kWh
+40 W Lorain St - Asia House Quadrangle,41-00130-1,Electricity,11/01/2022,12/01/2022,"23,200",kWh
+40 W Lorain St - Asia House Quadrangle,41-00130-1,Electricity,12/01/2022,01/01/2023,"21,760",kWh
+40 W Lorain St - Asia House Quadrangle,41-00130-1,Electricity,01/01/2023,02/01/2023,"21,440",kWh
+40 W Lorain St - Asia House Quadrangle,41-00130-1,Electricity,02/01/2023,03/01/2023,"19,880",kWh
 40 W Lorain St - Asia House Quadrangle,41-00130-1,Electricity,03/01/2023,04/01/2023,"20,720",kWh
 40 W Lorain St - Asia House Quadrangle,41-00130-1,Electricity,04/01/2023,05/01/2023,"21,760",kWh
 40 W Lorain St - Asia House Quadrangle,41-00130-1,Electricity,05/01/2023,06/01/2023,"20,040",kWh
@@ -887,30 +907,30 @@
 40 W Lorain St - Asia House Quadrangle,41-00130-1,Electricity,07/01/2023,08/01/2023,"17,400",kWh
 40 W Lorain St - Asia House Quadrangle,41-00130-1,Electricity,08/01/2023,09/01/2023,"19,440",kWh
 40 W Lorain St - Asia House Quadrangle,41-00130-1,Electricity,09/01/2023,10/01/2023,"21,960",kWh
-40 W Lorain St - Asia House Quadrangle,41-00130-1,Water,10/01/2022,11/01/2022,"1,500",cf
-40 W Lorain St - Asia House Quadrangle,41-00130-1,Water,11/01/2022,12/01/2022,"1,500",cf
-40 W Lorain St - Asia House Quadrangle,41-00130-1,Water,12/01/2022,01/01/2023,"1,300",cf
-40 W Lorain St - Asia House Quadrangle,41-00130-1,Water,01/01/2023,02/01/2023,"1,100",cf
-40 W Lorain St - Asia House Quadrangle,41-00130-1,Water,02/01/2023,03/01/2023,"1,700",cf
-40 W Lorain St - Asia House Quadrangle,41-00130-1,Water,03/01/2023,04/01/2023,"1,300",cf
-40 W Lorain St - Asia House Quadrangle,41-00130-1,Water,04/01/2023,05/01/2023,"1,300",cf
-40 W Lorain St - Asia House Quadrangle,41-00130-1,Water,05/01/2023,06/01/2023,"3,400",cf
-40 W Lorain St - Asia House Quadrangle,41-00130-1,Water,06/01/2023,07/01/2023,"3,500",cf
-40 W Lorain St - Asia House Quadrangle,41-00130-1,Water,07/01/2023,08/01/2023,100,cf
-40 W Lorain St - Asia House Quadrangle,41-00130-1,Water,08/01/2023,09/01/2023,"4,000",cf
-40 W Lorain St - Asia House Quadrangle,41-00130-1,Water,09/01/2023,10/01/2023,"1,500",cf
-40 W Lorain St - Asia House Quadrangle,41-00131-1,Water,10/01/2022,11/01/2022,0,cf
-40 W Lorain St - Asia House Quadrangle,41-00131-1,Water,11/01/2022,12/01/2022,0,cf
-40 W Lorain St - Asia House Quadrangle,41-00131-1,Water,12/01/2022,01/01/2023,0,cf
-40 W Lorain St - Asia House Quadrangle,41-00131-1,Water,01/01/2023,02/01/2023,0,cf
-40 W Lorain St - Asia House Quadrangle,41-00131-1,Water,02/01/2023,03/01/2023,0,cf
-40 W Lorain St - Asia House Quadrangle,41-00131-1,Water,03/01/2023,04/01/2023,0,cf
-40 W Lorain St - Asia House Quadrangle,41-00131-1,Water,04/01/2023,05/01/2023,0,cf
-40 W Lorain St - Asia House Quadrangle,41-00131-1,Water,05/01/2023,06/01/2023,0,cf
-40 W Lorain St - Asia House Quadrangle,41-00131-1,Water,06/01/2023,07/01/2023,0,cf
-40 W Lorain St - Asia House Quadrangle,41-00131-1,Water,07/01/2023,08/01/2023,0,cf
-40 W Lorain St - Asia House Quadrangle,41-00131-1,Water,08/01/2023,09/01/2023,0,cf
-40 W Lorain St - Asia House Quadrangle,41-00131-1,Water,09/01/2023,10/01/2023,0,cf
+40 W Lorain St - Asia House Quadrangle,41-00130-1,High Flow,10/01/2022,11/01/2022,"1,500",cf
+40 W Lorain St - Asia House Quadrangle,41-00130-1,High Flow,11/01/2022,12/01/2022,"1,500",cf
+40 W Lorain St - Asia House Quadrangle,41-00130-1,High Flow,12/01/2022,01/01/2023,"1,300",cf
+40 W Lorain St - Asia House Quadrangle,41-00130-1,High Flow,01/01/2023,02/01/2023,"1,100",cf
+40 W Lorain St - Asia House Quadrangle,41-00130-1,High Flow,02/01/2023,03/01/2023,"1,700",cf
+40 W Lorain St - Asia House Quadrangle,41-00130-1,High Flow,03/01/2023,04/01/2023,"1,300",cf
+40 W Lorain St - Asia House Quadrangle,41-00130-1,High Flow,04/01/2023,05/01/2023,"1,300",cf
+40 W Lorain St - Asia House Quadrangle,41-00130-1,High Flow,05/01/2023,06/01/2023,"3,400",cf
+40 W Lorain St - Asia House Quadrangle,41-00130-1,High Flow,06/01/2023,07/01/2023,"3,500",cf
+40 W Lorain St - Asia House Quadrangle,41-00130-1,High Flow,07/01/2023,08/01/2023,100,cf
+40 W Lorain St - Asia House Quadrangle,41-00130-1,High Flow,08/01/2023,09/01/2023,"4,000",cf
+40 W Lorain St - Asia House Quadrangle,41-00130-1,High Flow,09/01/2023,10/01/2023,"1,500",cf
+40 W Lorain St - Asia House Quadrangle,41-00131-1,Low Flow,10/01/2022,11/01/2022,0,cf
+40 W Lorain St - Asia House Quadrangle,41-00131-1,Low Flow,11/01/2022,12/01/2022,0,cf
+40 W Lorain St - Asia House Quadrangle,41-00131-1,Low Flow,12/01/2022,01/01/2023,0,cf
+40 W Lorain St - Asia House Quadrangle,41-00131-1,Low Flow,01/01/2023,02/01/2023,0,cf
+40 W Lorain St - Asia House Quadrangle,41-00131-1,Low Flow,02/01/2023,03/01/2023,0,cf
+40 W Lorain St - Asia House Quadrangle,41-00131-1,Low Flow,03/01/2023,04/01/2023,0,cf
+40 W Lorain St - Asia House Quadrangle,41-00131-1,Low Flow,04/01/2023,05/01/2023,0,cf
+40 W Lorain St - Asia House Quadrangle,41-00131-1,Low Flow,05/01/2023,06/01/2023,0,cf
+40 W Lorain St - Asia House Quadrangle,41-00131-1,Low Flow,06/01/2023,07/01/2023,0,cf
+40 W Lorain St - Asia House Quadrangle,41-00131-1,Low Flow,07/01/2023,08/01/2023,0,cf
+40 W Lorain St - Asia House Quadrangle,41-00131-1,Low Flow,08/01/2023,09/01/2023,0,cf
+40 W Lorain St - Asia House Quadrangle,41-00131-1,Low Flow,09/01/2023,10/01/2023,0,cf
 
 
 
@@ -974,18 +994,18 @@
 93 Elm St - Fairchild House,41-00450-1,Electricity,07/01/2023,08/01/2023,"13,080",kWh
 93 Elm St - Fairchild House,41-00450-1,Electricity,08/01/2023,09/01/2023,"14,920",kWh
 93 Elm St - Fairchild House,41-00450-1,Electricity,09/01/2023,10/01/2023,"24,560",kWh
-93 Elm St - Fairchild House,41-00460-1,Water,10/01/2022,11/01/2022,0,cf
-93 Elm St - Fairchild House,41-00460-1,Water,11/01/2022,12/01/2022,0,cf
-93 Elm St - Fairchild House,41-00460-1,Water,12/01/2022,01/01/2023,0,cf
-93 Elm St - Fairchild House,41-00460-1,Water,01/01/2023,02/01/2023,0,cf
-93 Elm St - Fairchild House,41-00460-1,Water,02/01/2023,03/01/2023,0,cf
-93 Elm St - Fairchild House,41-00460-1,Water,03/01/2023,04/01/2023,0,cf
-93 Elm St - Fairchild House,41-00460-1,Water,04/01/2023,05/01/2023,0,cf
-93 Elm St - Fairchild House,41-00460-1,Water,05/01/2023,06/01/2023,0,cf
-93 Elm St - Fairchild House,41-00460-1,Water,06/01/2023,07/01/2023,0,cf
-93 Elm St - Fairchild House,41-00460-1,Water,07/01/2023,08/01/2023,0,cf
-93 Elm St - Fairchild House,41-00460-1,Water,08/01/2023,09/01/2023,0,cf
-93 Elm St - Fairchild House,41-00460-1,Water,09/01/2023,10/01/2023,0,cf
+93 Elm St - Fairchild House,41-00460-1,Low Flow,10/01/2022,11/01/2022,0,cf
+93 Elm St - Fairchild House,41-00460-1,Low Flow,11/01/2022,12/01/2022,0,cf
+93 Elm St - Fairchild House,41-00460-1,Low Flow,12/01/2022,01/01/2023,0,cf
+93 Elm St - Fairchild House,41-00460-1,Low Flow,01/01/2023,02/01/2023,0,cf
+93 Elm St - Fairchild House,41-00460-1,Low Flow,02/01/2023,03/01/2023,0,cf
+93 Elm St - Fairchild House,41-00460-1,Low Flow,03/01/2023,04/01/2023,0,cf
+93 Elm St - Fairchild House,41-00460-1,Low Flow,04/01/2023,05/01/2023,0,cf
+93 Elm St - Fairchild House,41-00460-1,Low Flow,05/01/2023,06/01/2023,0,cf
+93 Elm St - Fairchild House,41-00460-1,Low Flow,06/01/2023,07/01/2023,0,cf
+93 Elm St - Fairchild House,41-00460-1,Low Flow,07/01/2023,08/01/2023,0,cf
+93 Elm St - Fairchild House,41-00460-1,Low Flow,08/01/2023,09/01/2023,0,cf
+93 Elm St - Fairchild House,41-00460-1,Low Flow,09/01/2023,10/01/2023,0,cf
 93 Elm St - Fairchild House,41-00461-1,Water,10/01/2022,11/01/2022,0,cf
 93 Elm St - Fairchild House,41-00461-1,Water,11/01/2022,12/01/2022,0,cf
 93 Elm St - Fairchild House,41-00461-1,Water,12/01/2022,01/01/2023,0,cf
@@ -1014,27 +1034,33 @@
 95 Union St - Langston Hall,41-00030-1,Electricity,07/01/2023,08/01/2023,"29,640",kWh
 95 Union St - Langston Hall,41-00030-1,Electricity,08/01/2023,09/01/2023,"33,120",kWh
 95 Union St - Langston Hall,41-00030-1,Electricity,09/01/2023,10/01/2023,"50,760",kWh
-95 Union St - Langston Hall,41-00030-1,Water,10/01/2022,11/01/2022,0,cf
-95 Union St - Langston Hall,41-00030-1,Water,11/01/2022,12/01/2022,0,cf
-95 Union St - Langston Hall,41-00030-1,Water,12/01/2022,01/01/2023,0,cf
-95 Union St - Langston Hall,41-00030-1,Water,01/01/2023,02/01/2023,0,cf
-95 Union St - Langston Hall,41-00030-1,Water,02/01/2023,03/01/2023,0,cf
-95 Union St - Langston Hall,41-00030-1,Water,03/01/2023,04/01/2023,0,cf
-95 Union St - Langston Hall,41-00030-1,Water,04/01/2023,05/01/2023,0,cf
-95 Union St - Langston Hall,41-00030-1,Water,05/01/2023,06/01/2023,0,cf
-95 Union St - Langston Hall,41-00030-1,Water,06/01/2023,07/01/2023,0,cf
-95 Union St - Langston Hall,41-00030-1,Water,07/01/2023,08/01/2023,0,cf
-95 Union St - Langston Hall,41-00030-1,Water,08/01/2023,09/01/2023,0,cf
-95 Union St - Langston Hall,41-00030-1,Water,09/01/2023,10/01/2023,0,cf
-95 Union St - Langston Hall,41-00031-1,Water,10/01/2022,11/01/2022,"12,700",cf
-95 Union St - Langston Hall,41-00031-1,Water,11/01/2022,12/01/2022,"13,900",cf
-95 Union St - Langston Hall,41-00031-1,Water,12/01/2022,01/01/2023,"10,500",cf
-95 Union St - Langston Hall,41-00031-1,Water,01/01/2023,02/01/2023,"9,000",cf
-95 Union St - Langston Hall,41-00031-1,Water,02/01/2023,03/01/2023,"14,500",cf
-95 Union St - Langston Hall,41-00031-1,Water,03/01/2023,04/01/2023,"12,500",cf
-95 Union St - Langston Hall,41-00031-1,Water,04/01/2023,05/01/2023,"16,000",cf
-95 Union St - Langston Hall,41-00031-1,Water,05/01/2023,06/01/2023,"8,300",cf
-95 Union St - Langston Hall,41-00031-1,Water,06/01/2023,07/01/2023,"2,500",cf
-95 Union St - Langston Hall,41-00031-1,Water,07/01/2023,08/01/2023,"2,100",cf
-95 Union St - Langston Hall,41-00031-1,Water,08/01/2023,09/01/2023,"4,100",cf
-95 Union St - Langston Hall,41-00031-1,Water,09/01/2023,10/01/2023,"17,500",cf
+95 Union St - Langston Hall,41-00030-1,High Flow,10/01/2022,11/01/2022,0,cf
+95 Union St - Langston Hall,41-00030-1,High Flow,11/01/2022,12/01/2022,0,cf
+95 Union St - Langston Hall,41-00030-1,High Flow,12/01/2022,01/01/2023,0,cf
+95 Union St - Langston Hall,41-00030-1,High Flow,01/01/2023,02/01/2023,0,cf
+95 Union St - Langston Hall,41-00030-1,High Flow,02/01/2023,03/01/2023,0,cf
+95 Union St - Langston Hall,41-00030-1,High Flow,03/01/2023,04/01/2023,0,cf
+95 Union St - Langston Hall,41-00030-1,High Flow,04/01/2023,05/01/2023,0,cf
+95 Union St - Langston Hall,41-00030-1,High Flow,05/01/2023,06/01/2023,0,cf
+95 Union St - Langston Hall,41-00030-1,High Flow,06/01/2023,07/01/2023,0,cf
+95 Union St - Langston Hall,41-00030-1,High Flow,07/01/2023,08/01/2023,0,cf
+95 Union St - Langston Hall,41-00030-1,High Flow,08/01/2023,09/01/2023,0,cf
+95 Union St - Langston Hall,41-00030-1,High Flow,09/01/2023,10/01/2023,0,cf
+95 Union St - Langston Hall,41-00031-1,Low Flow,10/01/2022,11/01/2022,"12,700",cf
+95 Union St - Langston Hall,41-00031-1,Low Flow,11/01/2022,12/01/2022,"13,900",cf
+95 Union St - Langston Hall,41-00031-1,Low Flow,12/01/2022,01/01/2023,"10,500",cf
+95 Union St - Langston Hall,41-00031-1,Low Flow,01/01/2023,02/01/2023,"9,000",cf
+95 Union St - Langston Hall,41-00031-1,Low Flow,02/01/2023,03/01/2023,"14,500",cf
+95 Union St - Langston Hall,41-00031-1,Low Flow,03/01/2023,04/01/2023,"12,500",cf
+95 Union St - Langston Hall,41-00031-1,Low Flow,04/01/2023,05/01/2023,"16,000",cf
+95 Union St - Langston Hall,41-00031-1,Low Flow,05/01/2023,06/01/2023,"8,300",cf
+95 Union St - Langston Hall,41-00031-1,Low Flow,06/01/2023,07/01/2023,"2,500",cf
+95 Union St - Langston Hall,41-00031-1,Low Flow,07/01/2023,08/01/2023,"2,100",cf
+95 Union St - Langston Hall,41-00031-1,Low Flow,08/01/2023,09/01/2023,"4,100",cf
+95 Union St - Langston Hall,41-00031-1,Low Flow,09/01/2023,10/01/2023,"17,500",cf
+
+
+
+
+
+Grand Total,,,,,,
