@@ -1,6 +1,7 @@
 import os
 import csv
 import sys
+import pandas as pd
 
 """
     Updates water meter types (high flow or low flow) in the Energy Manager file based on a mapping of account numbers to water meter types.
@@ -97,6 +98,41 @@ def format_energy_manager(output_file_path):
 
     print(f"Columns removed, Natural Gas and Wastewater lines skipped. Water meters were mapped and saved as `Energy Manager Data`.")
 
+def merge_buildingOS(folder_path):
+    # Get a list of all files in the folder
+    files = os.listdir(folder_path)
+
+    # Filter files with the pattern *_000.csv
+    files_000 = [file for file in files if file.endswith('_000.csv')]
+
+    # Initialize a DataFrame to store the concatenated data
+    result_df = pd.DataFrame()
+
+    for file_000 in files_000:
+        # Construct the corresponding *_001.csv file name
+        file_001 = file_000.replace('_000.csv', '_001.csv')
+
+        # Check if the *_001.csv file exists
+        if file_001 in files:
+            # Read the data from both files
+            df_000 = pd.read_csv(os.path.join(folder_path, file_000))
+            df_001 = pd.read_csv(os.path.join(folder_path, file_001))
+
+            # Concatenate the data horizontally
+            merged_df = pd.concat([df_000, df_001], axis=1)
+
+            # Append the merged data to the result DataFrame
+            result_df = pd.concat([result_df, merged_df], ignore_index=True)
+
+    # Save the result to a new CSV file
+    result_df.to_csv(os.path.join(folder_path, 'BuildingOS Data.csv'), index=False)
+
+    # Delete the original _000.csv and _001.csv files
+    os.remove(os.path.join(folder_path, file_000))
+    os.remove(os.path.join(folder_path, file_001))
+
+    print("\nBuildingOS merged .CSV file saved.")
+
 """
 Main function:
 """
@@ -158,12 +194,19 @@ else:
             # Create a temporaty file
             output_file_name = "all_buildings_mapped.csv"
             output_file_path = os.path.join(current_directory, output_file_name)
+
             # Format Energy Manager data
             format_energy_manager(output_file_path)
+
             # Replace the account number of water meters by `High Flow` or `Low Flow`
             update_water_meter_type(output_file_path, "account_numbers.csv")
+
             # Delete the intermediate file
             os.remove(output_file_path)
+
+            # Process BuildingOS .csv files since they are limited to 100 buildings per file
+            merge_buildingOS(current_directory)
+
             # Close program
             sys.exit()
 
