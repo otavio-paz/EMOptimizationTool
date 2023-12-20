@@ -103,33 +103,31 @@ def merge_buildingOS(folder_path):
     files = os.listdir(folder_path)
 
     # Filter files with the pattern *_000.csv
-    files_000 = [file for file in files if file.endswith('_000.csv')]
+    file_patterns = ['_000.csv', '_001.csv', '_002.csv', '_003.csv', '_004.csv']
+    files_to_merge = [file for file in files if any(file.endswith(pattern) for pattern in file_patterns)]
+    print(files_to_merge)
 
     # Initialize a DataFrame to store the concatenated data
     result_df = pd.DataFrame()
 
-    for file_000 in files_000:
-        # Construct the corresponding *_001.csv file name
-        file_001 = file_000.replace('_000.csv', '_001.csv')
+    # Iterate through each file pattern
+    for file in files_to_merge:
+        
+        # Read and merge the data from all files with the current pattern
+        merged_df = pd.concat(
+            [pd.read_csv(os.path.join(folder_path, file)) for file in files_to_merge],
+            axis=1
+        )
 
-        # Check if the *_001.csv file exists
-        if file_001 in files:
-            # Read the data from both files
-            df_000 = pd.read_csv(os.path.join(folder_path, file_000))
-            df_001 = pd.read_csv(os.path.join(folder_path, file_001))
+        # Append the merged data to the result DataFrame
+        result_df = pd.concat([result_df, merged_df], axis = 1)
 
-            # Concatenate the data horizontally
-            merged_df = pd.concat([df_000, df_001], axis=1)
-
-            # Append the merged data to the result DataFrame
-            result_df = pd.concat([result_df, merged_df], ignore_index=True)
+    # Delete the original files
+    for file in files_to_merge:
+        os.remove(os.path.join(folder_path, file))
 
     # Save the result to a new CSV file
     result_df.to_csv(os.path.join(folder_path, 'BuildingOS Data.csv'), index=False)
-
-    # Delete the original _000.csv and _001.csv files
-    os.remove(os.path.join(folder_path, file_000))
-    os.remove(os.path.join(folder_path, file_001))
 
     print("\nBuildingOS merged .CSV file saved.")
 
